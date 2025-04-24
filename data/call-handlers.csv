@@ -1,0 +1,73 @@
+
+> find-call-handlers
+> ts-node scripts/find-call-handlers.ts
+
+project,file,lineNumber,line
+axelar,subgraphs/axelar/protocols/axelar/config/templates/axelar.template.yaml,177,"callHandlers:"
+badgerdao,subgraphs/badgerdao/protocols/badgerdao/config/templates/badgerdao.template.yaml,83,"callHandlers:"
+badgerdao,subgraphs/badgerdao/protocols/badgerdao/config/templates/badgerdao.template.yaml,268,"callHandlers:"
+badgerdao,subgraphs/badgerdao/protocols/badgerdao/config/templates/badgerdao.template.yaml,336,"callHandlers:"
+bedrock-unieth,subgraphs/bedrock-unieth/protocols/bedrock-unieth/config/templates/bedrock.unieth.template.yaml,63,"callHandlers:"
+cbridge,subgraphs/cbridge/protocols/cbridge/config/templates/cbridge.template.yaml,107,"callHandlers:"
+cbridge,subgraphs/cbridge/protocols/cbridge/config/templates/cbridge.template.yaml,408,"# Use executeMessage callHandlers if possible for sender"
+cbridge,subgraphs/cbridge/protocols/cbridge/config/templates/cbridge.template.yaml,409,"callHandlers:"
+convex-finance,subgraphs/convex-finance/protocols/convex-finance/config/templates/convex.template.yaml,83,"callHandlers:"
+etherfi,subgraphs/etherfi/protocols/etherfi/config/templates/etherfi.template.yaml,187,"callHandlers:"
+etherfi,subgraphs/etherfi/protocols/etherfi/config/templates/etherfi.template.yaml,250,"callHandlers:"
+maker-governance,subgraphs/maker-governance/protocols/maker-governance/config/templates/maker-governance.template.yaml,119,"callHandlers:"
+maple-finance-v1,subgraphs/maple-finance-v1/protocols/maple-finance-v1/config/templates/maple.finance.template.yaml,66,"callHandlers:"
+maple-finance-v1,subgraphs/maple-finance-v1/protocols/maple-finance-v1/config/templates/maple.finance.template.yaml,722,"callHandlers:"
+morpho-blue,subgraphs/morpho-blue/protocols/morpho-blue/config/templates/morpho.blue.template.yaml,276,"callHandlers:"
+opensea,subgraphs/opensea/protocols/opensea-v1/config/templates/opensea.v1.template.yaml,24,"callHandlers:"
+opensea,subgraphs/opensea/protocols/opensea-v2/config/templates/opensea.v2.template.yaml,24,"callHandlers:"
+portal,subgraphs/portal/protocols/portal/config/templates/portal.template.yaml,134,"callHandlers:"
+puffer-finance,subgraphs/puffer-finance/protocols/puffer-finance/config/templates/puffer.finance.template.yaml,122,"callHandlers:"
+rocket-pool,subgraphs/rocket-pool/protocols/rocket-pool/config/templates/rocket-pool.template.yaml,65,"callHandlers:"
+stakedao,subgraphs/stakedao/protocols/stakedao/config/templates/stakedao.template.yaml,66,"callHandlers:"
+stakedao,subgraphs/stakedao/protocols/stakedao/config/templates/stakedao.template.yaml,135,"callHandlers:"
+stakedao,subgraphs/stakedao/protocols/stakedao/config/templates/stakedao.template.yaml,207,"callHandlers:"
+stakedao,subgraphs/stakedao/protocols/stakedao/config/templates/stakedao.template.yaml,279,"callHandlers:"
+stakedao,subgraphs/stakedao/protocols/stakedao/config/templates/stakedao.template.yaml,349,"callHandlers:"
+stakestone,subgraphs/stakestone/protocols/stakestone/config/templates/stakestone.template.yaml,77,"callHandlers:"
+stakestone,subgraphs/stakestone/protocols/stakestone/config/templates/stakestone.template.yaml,150,"callHandlers:"
+tokemak,subgraphs/tokemak/protocols/tokemak/config/templates/tokemak.template.yaml,104,"callHandlers:"
+tokemak,subgraphs/tokemak/protocols/tokemak/config/templates/tokemak.template.yaml,167,"callHandlers:"
+truefi,subgraphs/truefi/protocols/truefi/config/templates/truefi.template.yaml,182,"callHandlers:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/baseswap/config/templates/baseswap.template.yaml,38,"##callHandlers:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/biswap/config/templates/biswap.template.yaml,38,"##callHandlers:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/mm-finance/config/templates/mm.finance.template.yaml,38,"##callHandlers:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/quickswap/config/templates/quickswap.template.yaml,40,"##callHandlers:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/sushiswap/config/templates/uniswap.v2.template.yaml,40,"##callHandlers:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/uniswap-v2/config/templates/uniswap.v2.template.yaml,40,"##callHandlers:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/vvs-finance/config/templates/vvs.finance.template.yaml,38,"##callHandlers:"
+yearn-v2,subgraphs/yearn-v2/protocols/yearn-v2/config/templates/yearn.v2.template.yaml,236,"{{#callHandlersEnabled}}"
+yearn-v2,subgraphs/yearn-v2/protocols/yearn-v2/config/templates/yearn.v2.template.yaml,237,"callHandlers:"
+yearn-v2,subgraphs/yearn-v2/protocols/yearn-v2/config/templates/yearn.v2.template.yaml,250,"{{/callHandlersEnabled}}"
+yearn-v2,subgraphs/yearn-v2/protocols/yearn-v2/config/templates/yearn.v2.template.yaml,338,"{{#callHandlersEnabled}}"
+yearn-v2,subgraphs/yearn-v2/protocols/yearn-v2/config/templates/yearn.v2.template.yaml,339,"callHandlers:"
+yearn-v2,subgraphs/yearn-v2/protocols/yearn-v2/config/templates/yearn.v2.template.yaml,355,"{{/callHandlersEnabled}}"
+
+Summary:
+Total callHandlers found: 43
+Projects with callHandlers: 19 / 171
+
+Projects with callHandlers:
+- axelar
+- badgerdao
+- bedrock-unieth
+- cbridge
+- convex-finance
+- etherfi
+- maker-governance
+- maple-finance-v1
+- morpho-blue
+- opensea
+- portal
+- puffer-finance
+- rocket-pool
+- stakedao
+- stakestone
+- tokemak
+- truefi
+- uniswap-forks
+- yearn-v2

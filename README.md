@@ -113,3 +113,55 @@ The script outputs:
    - Number of projects with token-related contract calls
 
 3. A sorted list of all projects that interact with token contracts
+
+## Block Handlers Analysis Script
+
+The repository includes a TypeScript script (`scripts/find-block-handlers.ts`) that identifies subgraphs that use block handlers in their YAML configuration files.
+
+### Purpose
+- Identifies subgraphs that use block-based indexing (rather than event-based)
+- Helps understand which subgraphs index every block vs. specific events
+- Provides insights into indexing patterns across the subgraph ecosystem
+
+### Usage
+```bash
+# Run the block handlers analysis
+npm run find-block-handlers > data/block-handlers.csv
+```
+
+### Findings
+
+Summary:
+Total blockHandlers found: 6
+Projects with blockHandlers: 2 / 171
+
+It seems only network indexers that simply index each block are here, this aligns with our thesis that there is never a good case to use blockhandlers in indexers due to it's considerable performance bottleneck
+
+## Call Handlers Analysis Script
+
+The repository includes a TypeScript script (`scripts/find-call-handlers.ts`) that identifies subgraphs that use call handlers in their YAML configuration files.
+
+### Purpose
+- Identifies subgraphs that use call-based indexing (indexing specific function calls)
+- Helps understand which subgraphs track specific contract function calls
+- Provides insights into indexing patterns across the subgraph ecosystem
+
+### Usage
+```bash
+# Run the call handlers analysis
+npm run find-call-handlers > data/call-handlers.csv
+```
+
+### Output Format
+The script outputs:
+1. A CSV file with the following columns:
+   - `project`: Name of the subgraph project
+   - `file`: Relative path to the YAML file containing the call handler
+   - `lineNumber`: Line number where the call handler was found
+   - `line`: The actual line of code containing the call handler definition
+
+2. A summary showing:
+   - Total number of call handlers found
+   - Number of projects using call handlers
+
+3. A sorted list of all projects that use call handlers

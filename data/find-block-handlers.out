@@ -1,0 +1,19 @@
+
+> find-block-handlers
+> ts-node scripts/find-block-handlers.ts
+
+project,file,lineNumber,line
+cronos-dummy,subgraphs/cronos-dummy/protocols/cronos-dummy/config/templates/cronos.dummy.template.yaml,22,"blockHandlers:"
+network,subgraphs/network/protocols/arweave/config/templates/arweave.template.yaml,19,"blockHandlers:"
+network,subgraphs/network/protocols/cosmos/config/templates/cosmos.template.yaml,18,"blockHandlers:"
+network,subgraphs/network/protocols/cronos/config/templates/cronos.template.yaml,24,"blockHandlers:"
+network,subgraphs/network/protocols/evm/config/templates/evm.template.yaml,32,"blockHandlers:"
+network,subgraphs/network/protocols/near/config/templates/near.template.yaml,18,"blockHandlers:"
+
+Summary:
+Total blockHandlers found: 6
+Projects with blockHandlers: 2 / 171
+
+Projects with blockHandlers:
+- cronos-dummy
+- network

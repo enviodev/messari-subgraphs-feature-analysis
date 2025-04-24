@@ -36,6 +36,8 @@
     "find-contract-calls": "ts-node scripts/find-contract-calls.ts",
     "find-no-contract-calls": "ts-node scripts/find-no-contract-calls.ts",
     "analyze-token-calls": "ts-node scripts/analyze-token-calls.ts",
+    "find-block-handlers": "ts-node scripts/find-block-handlers.ts",
+    "find-call-handlers": "ts-node scripts/find-call-handlers.ts",
     "build": "tsc",
     "build:watch": "tsc -w"
   }
