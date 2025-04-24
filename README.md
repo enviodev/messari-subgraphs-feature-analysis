@@ -81,3 +81,35 @@ The script outputs:
    - Number and percentage of subgraphs with contract calls
 
 3. A sorted list of all subgraphs that don't use contract calls
+
+## Token Calls Analysis Script
+
+The repository includes a TypeScript script (`scripts/analyze-token-calls.ts`) that analyzes the contract calls CSV file to identify token-related contract interactions.
+
+### Purpose
+- Identifies contract calls related to tokens (ERC20, tokens, coins)
+- Provides insights into how subgraphs interact with token contracts
+- Helps understand token usage patterns across the subgraph ecosystem
+
+### Usage
+```bash
+# First, generate the contract calls CSV
+npm run find-contract-calls > data/contract-calls.csv
+
+# Then analyze token-related calls
+npm run analyze-token-calls > data/token-calls.csv
+```
+
+### Output Format
+The script outputs:
+1. A CSV file with the following columns:
+   - `project`: Name of the subgraph project
+   - `file`: Relative path to the file containing the token-related call
+   - `lineNumber`: Line number where the call was found
+   - `line`: The actual line of code containing the token-related call
+
+2. A summary showing:
+   - Total number of token-related contract calls found
+   - Number of projects with token-related contract calls
+
+3. A sorted list of all projects that interact with token contracts
