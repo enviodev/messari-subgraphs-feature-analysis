@@ -1,5 +1,0 @@
-streamlit
-streamlit-autorefresh
-subgrounds
-black
-tabulate
