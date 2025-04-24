@@ -38,6 +38,7 @@
     "analyze-token-calls": "ts-node scripts/analyze-token-calls.ts",
     "find-block-handlers": "ts-node scripts/find-block-handlers.ts",
     "find-call-handlers": "ts-node scripts/find-call-handlers.ts",
+    "find-dynamic-contracts": "ts-node scripts/find-dynamic-contracts.ts",
     "build": "tsc",
     "build:watch": "tsc -w"
   }

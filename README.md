@@ -165,3 +165,32 @@ The script outputs:
    - Number of projects using call handlers
 
 3. A sorted list of all projects that use call handlers
+
+## Dynamic Contracts Analysis Script
+
+The repository includes a TypeScript script (`scripts/find-dynamic-contracts.ts`) that identifies subgraphs that use dynamic contracts (Templates) in their YAML configuration files.
+
+### Purpose
+- Identifies subgraphs that use dynamic contract templates
+- Helps understand which subgraphs can handle dynamically deployed contracts
+- Provides insights into subgraph flexibility and adaptability
+
+### Usage
+```bash
+# Run the dynamic contracts analysis
+npm run find-dynamic-contracts > data/dynamic-contracts.csv
+```
+
+### Output Format
+The script outputs:
+1. A CSV file with the following columns:
+   - `project`: Name of the subgraph project
+   - `file`: Relative path to the YAML file containing the Templates section
+   - `lineNumber`: Line number where the Templates section was found
+   - `line`: The actual line of code containing the Templates definition
+
+2. A summary showing:
+   - Total number of dynamic contract definitions found
+   - Number of projects using dynamic contracts
+
+3. A sorted list of all projects that use dynamic contracts

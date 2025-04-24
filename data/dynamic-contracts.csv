@@ -1,0 +1,183 @@
+
+> find-dynamic-contracts
+> ts-node scripts/find-dynamic-contracts.ts
+
+project,file,lineNumber,line
+aave-forks,subgraphs/aave-forks/protocols/aave-amm/config/templates/aave.amm.template.yaml,143,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/aave-arc/config/templates/aave.arc.template.yaml,143,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/aave-rwa/config/templates/aave.rwa.template.yaml,143,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/aave-v2/config/templates/aave.v2.template.yaml,143,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/aave-v3/config/templates/aave.v3.template.yaml,173,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/geist-finance/config/templates/geist.finance.template.yaml,146,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/kinza-finance/config/templates/kinza.finance.template.yaml,172,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/pac-finance/config/templates/pac.finance.template.yaml,179,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/radiant-capital/config/templates/radiant.capital.template.yaml,146,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/radiant-capital-v2/config/templates/radiant.capital.v2.template.yaml,144,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/seamless-protocol/config/templates/seamless-protocol.template.yaml,172,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/seismic/config/templates/seismic.template.yaml,143,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/spark-lend/config/templates/spark.lend.template.yaml,179,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/superlend/config/templates/superlend.template.yaml,141,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/uwu-lend/config/templates/uwu.lend.template.yaml,143,"templates:"
+aave-forks,subgraphs/aave-forks/protocols/zerolend/config/templates/zerolend.template.yaml,179,"templates:"
+abracadabra,subgraphs/abracadabra/protocols/abracadabra/config/templates/abracadabra.money.template.yaml,143,"templates:"
+arrakis-finance,subgraphs/arrakis-finance/protocols/arrakis-finance/config/templates/arrakis.finance.template.yaml,79,"templates:"
+aura-finance,subgraphs/aura-finance/protocols/aura-finance/config/templates/aura-finance.template.yaml,116,"templates:"
+badgerdao,subgraphs/badgerdao/protocols/badgerdao/config/templates/badgerdao.template.yaml,176,"templates:"
+balancer-forks,subgraphs/balancer-forks/protocols/balancer-v2/config/templates/balancer.v2.template.yaml,188,"templates:"
+balancer-forks,subgraphs/balancer-forks/protocols/beethoven-x/config/templates/beethoven.x.fantom.template.yaml,172,"templates:"
+balancer-forks,subgraphs/balancer-forks/protocols/beethoven-x/config/templates/beethoven.x.optimism.template.yaml,113,"templates:"
+bancor-v3,subgraphs/bancor-v3/protocols/bancor-v3/config/templates/bancor.v3.template.yaml,139,"templates:"
+belt-finance,subgraphs/belt-finance/protocols/belt-finance/config/templates/belt.finance.template.yaml,146,"templates:"
+chainlink-staking,subgraphs/chainlink-staking/protocols/chainlink-staking/config/templates/chainlink.staking.template.yaml,274,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/aurigami/config/templates/aurigami.template.yaml,53,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/banker-joe/config/templates/banker-joe.template.yaml,45,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/bastion-protocol/config/templates/bastion-protocol.template.yaml,98,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/benqi/config/templates/benqi.template.yaml,53,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/compound-v2/config/templates/compound-v2.template.yaml,62,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/cream-finance/config/templates/cream-finance.template.yaml,53,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/dforce/config/templates/dforce.template.yaml,102,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/iron-bank/config/templates/iron-bank.template.yaml,68,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/moonwell/config/templates/moonwell.template.yaml,53,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/rari-fuse/config/templates/rari-fuse.template.yaml,37,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/scream/config/templates/scream.template.yaml,45,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/sonne-finance/config/templates/sonne.finance.template.yaml,53,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/tectonic/config/templates/tectonic.template.yaml,47,"templates:"
+compound-forks,subgraphs/compound-forks/protocols/venus/config/templates/venus.template.yaml,100,"templates:"
+compound-v3,subgraphs/compound-v3/protocols/compound-v3/config/templates/compound.v3.template.yaml,67,"templates:"
+convex-finance,subgraphs/convex-finance/protocols/convex-finance/config/templates/convex.template.yaml,89,"templates:"
+curve-finance,subgraphs/curve-finance/protocols/curve-finance/config/templates/curve.template.yaml,316,"templates:"
+ellipsis-finance,subgraphs/ellipsis-finance/protocols/ellipsis-finance/config/templates/ellipsis.finance.template.yaml,391,"templates:"
+erc20,subgraphs/erc20/protocols/erc20/config/templates/erc20.template.yaml,32,"templates:"
+erc20,subgraphs/erc20/protocols/erc20/config/templates/erc20.template.yaml,33,"# These data sources templates exist to support the different types that a specific erc20 token could be."
+etherfi,subgraphs/etherfi/protocols/etherfi/config/templates/etherfi.template.yaml,196,"templates:"
+gamma-strategies,subgraphs/gamma-strategies/protocols/gamma-strategies/config/templates/gamma.strategies.template.yaml,125,"templates:"
+gmx-forks,subgraphs/gmx-forks/protocols/gmx/config/templates/gmx.template.yaml,293,"templates:"
+gmx-forks,subgraphs/gmx-forks/protocols/mummy-finance/config/templates/mummy.finance.template.yaml,286,"templates:"
+goldfinch,subgraphs/goldfinch/protocols/goldfinch/config/templates/goldfinch.template.yaml,508,"templates:"
+inverse-finance,subgraphs/inverse-finance/protocols/inverse-finance/config/templates/inverse.finance.template.yaml,118,"templates:"
+karak,subgraphs/karak/protocols/karak/config/templates/karak.template.yaml,176,"templates:"
+kwenta,subgraphs/kwenta/protocols/kwenta/config/templates/kwenta.template.yaml,116,"templates:"
+maker-governance,subgraphs/maker-governance/protocols/maker-governance/config/templates/maker-governance.template.yaml,99,"templates:"
+makerdao,subgraphs/makerdao/protocols/makerdao/config/templates/makerdao.template.yaml,405,"templates:"
+maple-finance-v1,subgraphs/maple-finance-v1/protocols/maple-finance-v1/config/templates/maple.finance.template.yaml,148,"templates:"
+maple-finance-v2,subgraphs/maple-finance-v2/protocols/maple-finance-v2/config/templates/maple.finance.v2.template.yaml,130,"templates:"
+morpho,subgraphs/morpho/protocols/morpho-aave-v2/config/templates/morpho.aave.v2.template.yaml,98,"templates:"
+morpho,subgraphs/morpho/protocols/morpho-aave-v3/config/templates/morpho.aave.v3.template.yaml,94,"templates:"
+morpho,subgraphs/morpho/protocols/morpho-compound/config/templates/morpho.compound.template.yaml,88,"templates:"
+morpho-blue,subgraphs/morpho-blue/protocols/morpho-blue/config/templates/morpho.blue.template.yaml,134,"templates:"
+multichain,subgraphs/multichain/protocols/multichain/config/templates/multichain.template.yaml,172,"templates:"
+nexus-mutual,subgraphs/nexus-mutual/protocols/nexus-mutual/config/templates/nexus-mutual.template.yaml,83,"templates:"
+optimism-bridge-v2,subgraphs/optimism-bridge-v2/protocols/optimism-bridge-v2/config/templates/optimism.bridge.template.yaml,315,"templates:"
+opyn-gamma,subgraphs/opyn-gamma/protocols/opyn-gamma/config/templates/opyn.gamma.template.yaml,216,"templates:"
+platypus-finance,subgraphs/platypus-finance/protocols/platypus-finance/config/templates/platypus.template.yaml,278,"templates:"
+qidao,subgraphs/qidao/protocols/qidao/config/templates/qidao.template.yaml,128,"templates:"
+ribbon-finance,subgraphs/ribbon-finance/protocols/ribbon-finance/config/templates/ribbon.finance.template.yaml,441,"templates:"
+ring-few,subgraphs/ring-few/protocols/ring-few/config/templates/ring.few.template.yaml,68,"templates:"
+rocket-pool,subgraphs/rocket-pool/protocols/rocket-pool/config/templates/rocket-pool.template.yaml,69,"templates:"
+saddle-finance,subgraphs/saddle-finance/protocols/saddle-finance/config/templates/saddle.finance.template.yaml,286,"templates:"
+stakedao,subgraphs/stakedao/protocols/stakedao/config/templates/stakedao.template.yaml,144,"templates:"
+stakewise-v2,subgraphs/stakewise-v2/protocols/stakewise-v2/config/templates/stakewise-v2.template.yaml,255,"templates:"
+stargate,subgraphs/stargate/protocols/stargate/config/templates/stargate.template.yaml,87,"templates:"
+suzaku,subgraphs/suzaku/protocols/suzaku/config/templates/suzaku.template.yaml,81,"templates:"
+symbiotic,subgraphs/symbiotic/protocols/symbiotic/config/templates/symbiotic.template.yaml,88,"templates:"
+tenderize-v2,subgraphs/tenderize-v2/protocols/tenderize-v2/config/templates/tenderize-v2.template.yaml,83,"templates:"
+tokemak,subgraphs/tokemak/protocols/tokemak/config/templates/tokemak.template.yaml,108,"templates:"
+truefi,subgraphs/truefi/protocols/truefi/config/templates/truefi.template.yaml,211,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/apeswap/config/templates/apeswap.bsc.template.yaml,61,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/apeswap/config/templates/apeswap.matic.template.yaml,67,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/baseswap/config/templates/baseswap.template.yaml,41,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/biswap/config/templates/biswap.template.yaml,41,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/camelot-v2/config/templates/camelot.v2.template.yaml,70,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/honeyswap/config/templates/honeyswap.matic.template.yaml,40,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/honeyswap/config/templates/honeyswap.template.yaml,40,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/mm-finance/config/templates/mm.finance.template.yaml,66,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/pangolin/config/templates/pangolin.template.yaml,65,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/quickswap/config/templates/quickswap.template.yaml,43,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/solarbeam/config/templates/solarbeam.template.yaml,57,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/spiritswap/config/templates/spiritswap.template.yaml,57,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/spookyswap/config/templates/spookyswap.template.yaml,91,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/sushiswap/config/templates/sushiswap.alt.template.yaml,65,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/sushiswap/config/templates/sushiswap.mainnet.template.yaml,89,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/sushiswap/config/templates/uniswap.v2.template.yaml,43,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/trader-joe/config/templates/trader.joe.template.yaml,98,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/trisolaris/config/templates/trisolaris.template.yaml,89,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/ubeswap/config/templates/ubeswap-template.yaml,59,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/uniswap-v2/config/templates/uniswap.v2.template.yaml,43,"templates:"
+uniswap-forks,subgraphs/uniswap-forks/protocols/vvs-finance/config/templates/vvs.finance.template.yaml,66,"templates:"
+uniswap-forks-swap,subgraphs/uniswap-forks-swap/protocols/baseswap-swap/config/templates/baseswap.swap.template.yaml,40,"templates:"
+uniswap-forks-swap,subgraphs/uniswap-forks-swap/protocols/pancakeswap-v2-swap/config/templates/pancakeswap.v2.swap.template.yaml,40,"templates:"
+uniswap-forks-swap,subgraphs/uniswap-forks-swap/protocols/quickswap-swap/config/templates/quickswap.swap.template.yaml,40,"templates:"
+uniswap-forks-swap,subgraphs/uniswap-forks-swap/protocols/spookyswap-swap/config/templates/spookyswap.swap.template.yaml,40,"templates:"
+uniswap-forks-swap,subgraphs/uniswap-forks-swap/protocols/uniswap-v2-swap/config/templates/uniswap.v2.swap.template.yaml,40,"templates:"
+uniswap-v3-forks,subgraphs/uniswap-v3-forks/protocols/iguanadex-v3/config/templates/iguanadexV3Template.yaml,82,"templates:"
+uniswap-v3-forks,subgraphs/uniswap-v3-forks/protocols/pancakeswap-v3/config/templates/pancakeswapV3Template.yaml,82,"templates:"
+uniswap-v3-forks,subgraphs/uniswap-v3-forks/protocols/sushiswap-v3/config/templates/sushiswapV3Template.yaml,82,"templates:"
+uniswap-v3-forks,subgraphs/uniswap-v3-forks/protocols/uniswap-v3/config/templates/uniswapV3Template.yaml,82,"templates:"
+uniswap-v3-forks-swap,subgraphs/uniswap-v3-forks-swap/protocols/pancakeswap-v3-swap/config/templates/pancakeswap.v3.swap.template.yaml,48,"templates:"
+uniswap-v3-forks-swap,subgraphs/uniswap-v3-forks-swap/protocols/sushiswap-v3-swap/config/templates/sushiswap.v3.swap.template.yaml,48,"templates:"
+uniswap-v3-forks-swap,subgraphs/uniswap-v3-forks-swap/protocols/uniswap-v3-swap/config/templates/uniswap.v3.swap.template.yaml,48,"templates:"
+velodrome-finance,subgraphs/velodrome-finance/protocols/velodrome-finance-v1/config/templates/velodrome.finance.v1.template.yaml,78,"templates:"
+velodrome-finance,subgraphs/velodrome-finance/protocols/velodrome-finance-v2/config/templates/velodrome.finance.v2.template.yaml,76,"templates:"
+vesper-finance,subgraphs/vesper-finance/protocols/vesper-finance/config/templates/vesper.finance.template.yaml,95,"templates:"
+vesta-finance,subgraphs/vesta-finance/protocols/vesta-finance/config/templates/vesta.finance.template.yaml,264,"templates:"
+yearn-v2,subgraphs/yearn-v2/protocols/yearn-v2/config/templates/yearn.v2.template.yaml,253,"templates:"
+
+Summary:
+Total dynamic contracts found: 118
+Projects with dynamic contracts: 54 / 171
+
+Projects with dynamic contracts:
+- aave-forks
+- abracadabra
+- arrakis-finance
+- aura-finance
+- badgerdao
+- balancer-forks
+- bancor-v3
+- belt-finance
+- chainlink-staking
+- compound-forks
+- compound-v3
+- convex-finance
+- curve-finance
+- ellipsis-finance
+- erc20
+- etherfi
+- gamma-strategies
+- gmx-forks
+- goldfinch
+- inverse-finance
+- karak
+- kwenta
+- maker-governance
+- makerdao
+- maple-finance-v1
+- maple-finance-v2
+- morpho
+- morpho-blue
+- multichain
+- nexus-mutual
+- optimism-bridge-v2
+- opyn-gamma
+- platypus-finance
+- qidao
+- ribbon-finance
+- ring-few
+- rocket-pool
+- saddle-finance
+- stakedao
+- stakewise-v2
+- stargate
+- suzaku
+- symbiotic
+- tenderize-v2
+- tokemak
+- truefi
+- uniswap-forks
+- uniswap-forks-swap
+- uniswap-v3-forks
+- uniswap-v3-forks-swap
+- velodrome-finance
+- vesper-finance
+- vesta-finance
+- yearn-v2
