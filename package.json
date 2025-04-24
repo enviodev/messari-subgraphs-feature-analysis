@@ -5,6 +5,7 @@
   },
   "devDependencies": {
     "@graphprotocol/graph-ts": "^0.28.1",
+    "@types/node": "^20.11.24",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.57.0",
@@ -15,6 +16,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.3.0",
     "prettier": "^2.8.8",
+    "ts-node": "^10.9.2",
     "typescript": "^4.9.5"
   },
   "lint-staged": {
@@ -29,6 +31,9 @@
     "lint": "npx eslint",
     "lint:subgraphs": "npx eslint -c subgraphs/.eslintrc.js",
     "prepare": "husky install",
-    "folderslint": "cd subgraphs && folderslint"
+    "folderslint": "cd subgraphs && folderslint",
+    "validate-protocols": "ts-node scripts/validate-protocols.ts",
+    "build": "tsc",
+    "build:watch": "tsc -w"
   }
 }
