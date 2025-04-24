@@ -34,6 +34,7 @@
     "folderslint": "cd subgraphs && folderslint",
     "validate-protocols": "ts-node scripts/validate-protocols.ts",
     "find-contract-calls": "ts-node scripts/find-contract-calls.ts",
+    "find-no-contract-calls": "ts-node scripts/find-no-contract-calls.ts",
     "build": "tsc",
     "build:watch": "tsc -w"
   }

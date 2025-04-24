@@ -50,6 +50,34 @@ The script outputs a CSV file with the following columns:
 - `lineNumber`: Line number where the contract call was found
 - `line`: The actual line of code containing the contract call
 
-### Findings
-- Total number of contract calls found: 3851
-- Number of unique projects using contract calls: 155 / 171
+The script also provides a summary of:
+- Total number of contract calls found
+- Number of unique projects using contract calls
+
+## No Contract Calls Analysis Script
+
+The repository includes a TypeScript script (`scripts/find-no-contract-calls.ts`) that identifies subgraphs that don't use any contract calls (`.bind()` method).
+
+### Purpose
+- Identifies subgraphs that rely solely on event-based indexing
+- Helps understand which subgraphs don't need direct contract interactions
+- Provides insights into subgraph implementation patterns
+
+### Usage
+```bash
+# Run the no contract calls analysis
+npm run find-no-contract-calls > data/no-contract-calls.csv
+```
+
+### Output Format
+The script outputs:
+1. A CSV file with the following columns:
+   - `subgraph`: Name of the subgraph
+   - `uses_contract_calls`: Boolean indicating if the subgraph uses contract calls
+
+2. A summary showing:
+   - Total number of subgraphs
+   - Number and percentage of subgraphs without contract calls
+   - Number and percentage of subgraphs with contract calls
+
+3. A sorted list of all subgraphs that don't use contract calls

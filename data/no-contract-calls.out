@@ -1,0 +1,199 @@
+
+> find-no-contract-calls
+> ts-node scripts/find-no-contract-calls.ts
+
+subgraph,uses_contract_calls
+aave-forks,true
+aave-governance,true
+abracadabra,true
+across-v2,true
+affine-restaking,true
+alchemix,false
+alpaca-finance-lending,true
+alpha-finance,false
+amphor,true
+anzen-v2,true
+aqua-patina,true
+arbitrum-one-bridge,true
+arrakis-finance,true
+aspida,true
+aura-finance,true
+aurus,true
+autofarm,false
+axelar,true
+badgerdao,true
+balancer-forks,true
+bancor-v2,false
+bancor-v3,true
+bedrock-unieth,true
+beefy-finance,true
+beethovenx-sftmx,true
+belt-finance,true
+benqi-staked-avax,true
+binance-staked-eth,true
+blackwing,true
+bob-fusion,true
+bracket-escrow-staking,true
+burrow,false
+cbridge,true
+chainlink-staking,true
+coinbase-wrapped-staked-eth,true
+compound-forks,true
+compound-v3,true
+concentrator,true
+convex-finance,true
+creth2,true
+cronos-dummy,false
+cryptopunks,true
+curve-finance,true
+cygnus-finance,true
+deq,true
+dinero-pxeth,true
+dodo-v2,false
+dopex,true
+eigenlayer,true
+eigenpie,true
+ellipsis-finance,true
+erc20,true
+erc721-holders,true
+erc721-metadata,true
+etherfi,true
+euler-finance,true
+flat-money,true
+frax-ether-staking,true
+friend-tech,true
+fx-protocol,true
+gains-trade,true
+gamma-strategies,true
+gaurda-staking,true
+geode,true
+gmx-forks,true
+gogopool,true
+goldfinch,true
+governor-alpha-bravo,true
+gudchain,true
+harvest-finance,false
+hop-protocol,true
+hord-fi,true
+hyperlock-finance,true
+inception,true
+inverse-finance,true
+karak,true
+kelp-dao,true
+kernel-protocol,true
+klimadao,true
+kwenta,true
+level-finance,true
+lido,true
+liquid-collective,true
+liquity,true
+livepeer,true
+llama-airforce,true
+looksrare,true
+lybra-finance,true
+m0-power,true
+maker-governance,true
+makerdao,true
+mantle-staked-eth,true
+maple-finance-v1,true
+maple-finance-v2,true
+matrixdock,true
+mellow-lrt,true
+mev-protocol,true
+moola-market,false
+morpho,true
+morpho-blue,true
+mountain-protocol,true
+multichain,true
+mux-protocol,true
+network,false
+nexus-mutual,true
+node-dao,true
+notional-finance,true
+opensea,true
+openzeppelin-governor,true
+optimism-bridge-v2,true
+opyn-gamma,true
+ora-protocol,true
+orbit,true
+origin-ether,true
+osmosis-dex,false
+paxos-gold,true
+platypus-finance,true
+pooltogether,false
+portal,true
+powh3d,true
+prime-staked-eth,true
+puffer-finance,true
+qidao,true
+rari-vaults,true
+renzo,true
+ribbon-finance,true
+ring-few,true
+rocket-pool,true
+saddle-finance,true
+seaport,true
+slisbnb,true
+spiko,true
+stader,true
+stake-link-liquid,true
+stakedao,true
+stakestone,true
+stakewise-v2,true
+stargate,true
+stcelo,true
+stream-finance,true
+superseed,true
+suzaku,true
+swell-liquid-staking,true
+symbiotic,true
+synapse,false
+synthetix,false
+tenderize-v2,true
+tensorplex,true
+tether-gold,true
+the-graph,true
+tokemak,true
+tornado-cash,true
+treasuredao,false
+truefi,true
+umami-finance,true
+uniswap-forks,true
+uniswap-forks-swap,true
+uniswap-v3-forks,true
+uniswap-v3-forks-swap,true
+usual,true
+vaultka,true
+velodrome-finance,true
+vesper-finance,true
+vesta-finance,true
+x2y2,true
+yearn-v2,true
+yeti-finance,true
+yield-yak,false
+yieldnest,true
+yieldyak-staked-avax,true
+zircuit-staking,true
+
+Summary:
+Total subgraphs: 171
+Subgraphs without contract calls: 16 (9%)
+Subgraphs with contract calls: 155 (91%)
+
+Subgraphs without contract calls:
+- alchemix
+- alpha-finance
+- autofarm
+- bancor-v2
+- burrow
+- cronos-dummy
+- dodo-v2
+- harvest-finance
+- moola-market
+- network
+- osmosis-dex
+- pooltogether
+- synapse
+- synthetix
+- treasuredao
+- yield-yak
