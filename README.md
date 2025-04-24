@@ -27,3 +27,29 @@ The script will output:
 - A success message if everything is properly synchronized
 
 It seems there is a large amount of inconsistencies, and so the deployments.json file will largely be ignored and data analysis will be done on the code within `subgraphs` directly. 
+
+## Contract Calls Analysis Script
+
+The repository includes a TypeScript script (`scripts/find-contract-calls.ts`) that analyzes all subgraphs to identify where contract calls are being made using the `.bind()` method.
+
+### Purpose
+- Identifies all subgraphs that make direct contract calls
+- Locates specific files and line numbers where contract calls occur
+- Provides a comprehensive view of contract interaction patterns across subgraphs
+
+### Usage
+```bash
+# Run the contract calls analysis
+npm run find-contract-calls > data/contract-calls.csv
+```
+
+### Output Format
+The script outputs a CSV file with the following columns:
+- `project`: Name of the subgraph project
+- `file`: Relative path to the file containing the contract call
+- `lineNumber`: Line number where the contract call was found
+- `line`: The actual line of code containing the contract call
+
+### Findings
+- Total number of contract calls found: 3851
+- Number of unique projects using contract calls: 155 / 171
