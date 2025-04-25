@@ -1,0 +1,907 @@
+protocol,networks,callHandlers,ipfs,blockHandlers,dynamicContracts,contractCalls
+"  - aave-amm-ethereum",1,false,false,false,false,false
+"  - aave-arc-ethereum",1,false,false,false,false,false
+"  - aave-governance-ethereum",1,false,false,false,false,false
+"  - aave-rwa-ethereum",1,false,false,false,false,false
+"  - aave-v2-avalanche",1,false,false,false,false,false
+"  - aave-v2-ethereum",1,false,false,false,false,false
+"  - aave-v2-polygon",1,false,false,false,false,false
+"  - aave-v3-arbitrum",1,false,false,false,false,false
+"  - aave-v3-avalanche",1,false,false,false,false,false
+"  - aave-v3-base",1,false,false,false,false,false
+"  - aave-v3-bsc",1,false,false,false,false,false
+"  - aave-v3-ethereum",1,false,false,false,false,false
+"  - aave-v3-fantom",1,false,false,false,false,false
+"  - aave-v3-gnosis",1,false,false,false,false,false
+"  - aave-v3-harmony",1,false,false,false,false,false
+"  - aave-v3-metis",1,false,false,false,false,false
+"  - aave-v3-optimism",1,false,false,false,false,false
+"  - aave-v3-polygon",1,false,false,false,false,false
+"  - aave-v3-scroll",1,false,false,false,false,false
+"  - abracadabra-arbitrum",1,false,false,false,false,false
+"  - abracadabra-avalanche",1,false,false,false,false,false
+"  - abracadabra-bsc",1,false,false,false,false,false
+"  - abracadabra-ethereum",1,false,false,false,false,false
+"  - abracadabra-fantom",1,false,false,false,false,false
+"  - across-v2-arbitrum",1,false,false,false,false,false
+"  - across-v2-boba",1,false,false,false,false,false
+"  - across-v2-ethereum",1,false,false,false,false,false
+"  - across-v2-optimism",1,false,false,false,false,false
+"  - across-v2-polygon",1,false,false,false,false,false
+"  - affine-restaking-ethereum",1,false,false,false,false,false
+"  - affine-restaking-linea",1,false,false,false,false,false
+"  - alpaca-finance-lending-bsc",1,false,false,false,false,false
+"  - alpaca-finance-lending-fantom",1,false,false,false,false,false
+"  - amphor-ethereum",1,false,false,false,false,false
+"  - ampleforth-governance-ethereum",1,false,false,false,false,false
+"  - angle-governance-ethereum",1,false,false,false,false,false
+"  - anzen-v2-arbitrum",1,false,false,false,false,false
+"  - anzen-v2-base",1,false,false,false,false,false
+"  - anzen-v2-blast",1,false,false,false,false,false
+"  - anzen-v2-ethereum",1,false,false,false,false,false
+"  - apeswap-bsc",1,false,false,false,false,false
+"  - apeswap-polygon",1,false,false,false,false,false
+"  - aqua-patina-ethereum",1,false,false,false,false,false
+"  - arbitrum-one-bridge-arbitrum",1,false,false,false,false,false
+"  - arbitrum-one-bridge-ethereum",1,false,false,false,false,false
+"  - arrakis-finance-ethereum",1,false,false,false,false,false
+"  - arrakis-finance-optimism",1,false,false,false,false,false
+"  - arrakis-finance-polygon",1,false,false,false,false,false
+"  - arweave-mainnet",1,false,false,false,false,false
+"  - aspida-ethereum",1,false,false,false,false,false
+"  - aura-finance-ethereum",1,false,false,false,false,false
+"  - aurigami-aurora",1,false,false,false,false,false
+"  - aurus-ethereum",1,false,false,false,false,false
+"  - axelar-arbitrum",1,false,false,false,false,false
+"  - axelar-avalanche",1,false,false,false,false,false
+"  - axelar-bsc",1,false,false,false,false,false
+"  - axelar-celo",1,false,false,false,false,false
+"  - axelar-ethereum",1,false,false,false,false,false
+"  - axelar-fantom",1,false,false,false,false,false
+"  - axelar-moonbeam",1,false,false,false,false,false
+"  - axelar-polygon",1,false,false,false,false,false
+"  - badgerdao-ethereum",1,false,false,false,false,false
+"  - balancer-v2-arbitrum",1,false,false,false,false,false
+"  - balancer-v2-ethereum",1,false,false,false,false,false
+"  - balancer-v2-polygon",1,false,false,false,false,false
+"  - bancor-v3-ethereum",1,false,false,false,false,false
+"  - banker-joe-avalanche",1,false,false,false,false,false
+"  - baseswap-base",1,false,false,false,false,false
+"  - baseswap-swap-base",1,false,false,false,false,false
+"  - bastion-protocol-aurora",1,false,false,false,false,false
+"  - bedrock-unieth-ethereum",1,false,false,false,false,false
+"  - beefy-finance-arbitrum",1,false,false,false,false,false
+"  - beefy-finance-aurora",1,false,false,false,false,false
+"  - beefy-finance-avalanche",1,false,false,false,false,false
+"  - beefy-finance-bsc",1,false,false,false,false,false
+"  - beefy-finance-celo",1,false,false,false,false,false
+"  - beefy-finance-cronos",1,false,false,false,false,false
+"  - beefy-finance-fantom",1,false,false,false,false,false
+"  - beefy-finance-fuse",1,false,false,false,false,false
+"  - beefy-finance-harmony",1,false,false,false,false,false
+"  - beefy-finance-moonbeam",1,false,false,false,false,false
+"  - beefy-finance-moonriver",1,false,false,false,false,false
+"  - beefy-finance-optimism",1,false,false,false,false,false
+"  - beefy-finance-polygon",1,false,false,false,false,false
+"  - beethoven-x-fantom",1,false,false,false,false,false
+"  - beethoven-x-optimism",1,false,false,false,false,false
+"  - beethovenx-sftmx-fantom",1,false,false,false,false,false
+"  - belt-finance-bsc",1,false,false,false,false,false
+"  - benqi-avalanche",1,false,false,false,false,false
+"  - benqi-staked-avax-avalanche",1,false,false,false,false,false
+"  - binance-staked-eth-bsc",1,false,false,false,false,false
+"  - binance-staked-eth-ethereum",1,false,false,false,false,false
+"  - biswap-bsc",1,false,false,false,false,false
+"  - blackwing-arbitrum",1,false,false,false,false,false
+"  - blackwing-bsc",1,false,false,false,false,false
+"  - blackwing-ethereum",1,false,false,false,false,false
+"  - bob-fusion-ethereum",1,false,false,false,false,false
+"  - bracket-escrow-staking-arbitrum",1,false,false,false,false,false
+"  - bracket-escrow-staking-ethereum",1,false,false,false,false,false
+"  - burrow-near",1,false,false,false,false,false
+"  - camelot-v2-arbitrum",1,false,false,false,false,false
+"  - cbridge-arbitrum",1,false,false,false,false,false
+"  - cbridge-aurora",1,false,false,false,false,false
+"  - cbridge-avalanche",1,false,false,false,false,false
+"  - cbridge-boba",1,false,false,false,false,false
+"  - cbridge-bsc",1,false,false,false,false,false
+"  - cbridge-celo",1,false,false,false,false,false
+"  - cbridge-ethereum",1,false,false,false,false,false
+"  - cbridge-fantom",1,false,false,false,false,false
+"  - cbridge-gnosis",1,false,false,false,false,false
+"  - cbridge-harmony",1,false,false,false,false,false
+"  - cbridge-moonbeam",1,false,false,false,false,false
+"  - cbridge-moonriver",1,false,false,false,false,false
+"  - cbridge-optimism",1,false,false,false,false,false
+"  - cbridge-polygon",1,false,false,false,false,false
+"  - chainlink-staking-ethereum",1,false,false,false,false,false
+"  - code4rena-governance-polygon",1,false,false,false,false,false
+"  - coinbase-wrapped-staked-eth-ethereum",1,false,false,false,false,false
+"  - compound-governance-ethereum",1,false,false,false,false,false
+"  - compound-governance-v1-ethereum",1,false,false,false,false,false
+"  - compound-v2-ethereum",1,false,false,false,false,false
+"  - compound-v3-arbitrum",1,false,false,false,false,false
+"  - compound-v3-base",1,false,false,false,false,false
+"  - compound-v3-ethereum",1,false,false,false,false,false
+"  - compound-v3-polygon",1,false,false,false,false,false
+"  - concentrator-ethereum",1,false,false,false,false,false
+"  - convex-finance-ethereum",1,false,false,false,false,false
+"  - cosmoshub",1,false,false,false,false,false
+"  - cream-finance-arbitrum",1,false,false,false,false,false
+"  - cream-finance-bsc",1,false,false,false,false,false
+"  - cream-finance-ethereum",1,false,false,false,false,false
+"  - cream-finance-polygon",1,false,false,false,false,false
+"  - creth2-ethereum",1,false,false,false,false,false
+"  - cronos",2,false,false,false,false,false
+"  - cryptex-governance-ethereum",1,false,false,false,false,false
+"  - cryptopunks-ethereum",1,false,false,false,false,false
+"  - curve-finance-arbitrum",1,false,false,false,false,false
+"  - curve-finance-aurora",1,false,false,false,false,false
+"  - curve-finance-avalanche",1,false,false,false,false,false
+"  - curve-finance-ethereum",1,false,false,false,false,false
+"  - curve-finance-fantom",1,false,false,false,false,false
+"  - curve-finance-gnosis",1,false,false,false,false,false
+"  - curve-finance-harmony",1,false,false,false,false,false
+"  - curve-finance-moonbeam",1,false,false,false,false,false
+"  - curve-finance-optimism",1,false,false,false,false,false
+"  - curve-finance-polygon",1,false,false,false,false,false
+"  - cygnus-finance-base",1,false,false,false,false,false
+"  - deq-ethereum",1,false,false,false,false,false
+"  - dforce-arbitrum",1,false,false,false,false,false
+"  - dforce-avalanche",1,false,false,false,false,false
+"  - dforce-bsc",1,false,false,false,false,false
+"  - dforce-ethereum",1,false,false,false,false,false
+"  - dforce-optimism",1,false,false,false,false,false
+"  - dforce-polygon",1,false,false,false,false,false
+"  - dinero-pxeth-ethereum",1,false,false,false,false,false
+"  - dopex-arbitrum",1,false,false,false,false,false
+"  - dopex-polygon",1,false,false,false,false,false
+"  - dydx-governance-ethereum",1,false,false,false,false,false
+"  - eigenlayer-ethereum",1,false,false,false,false,false
+"  - eigenpie-ethereum",1,false,false,false,false,false
+"  - ellipsis-finance-bsc",1,false,false,false,false,false
+"  - ens-governance-ethereum",1,false,false,false,false,false
+"  - erc20-holders-2017",1,false,false,false,false,false
+"  - erc20-holders-2018",1,false,false,false,false,false
+"  - erc20-holders-2019",1,false,false,false,false,false
+"  - erc20-holders-2020",1,false,false,false,false,false
+"  - erc20-holders-2021",1,false,false,false,false,false
+"  - erc20-holders-2022",1,false,false,false,false,false
+"  - erc721-holders-ethereum",1,false,false,false,false,false
+"  - erc721-metadata-ethereum",1,false,false,false,false,false
+"  - etherfi-ethereum",1,false,false,false,false,false
+"  - euler-finance-ethereum",1,false,false,false,false,false
+"  - euler-governance-ethereum",1,false,false,false,false,false
+"  - evm-arbitrum",1,false,false,false,false,false
+"  - evm-aurora",1,false,false,false,false,false
+"  - evm-avalanche",1,false,false,false,false,false
+"  - evm-boba",1,false,false,false,false,false
+"  - evm-bsc",1,false,false,false,false,false
+"  - evm-celo",1,false,false,false,false,false
+"  - evm-clover",1,false,false,false,false,false
+"  - evm-ethereum",1,false,false,false,false,false
+"  - evm-fantom",1,false,false,false,false,false
+"  - evm-fuse",1,false,false,false,false,false
+"  - evm-gnosis",1,false,false,false,false,false
+"  - evm-harmony",1,false,false,false,false,false
+"  - evm-moonbeam",1,false,false,false,false,false
+"  - evm-moonriver",1,false,false,false,false,false
+"  - evm-optimism",1,false,false,false,false,false
+"  - evm-polygon",1,false,false,false,false,false
+"  - evm-polygon-zkevm",1,false,false,false,false,false
+"  - evm-zksync",1,false,false,false,false,false
+"  - fei-governance-ethereum",1,false,false,false,false,false
+"  - flat-money-base",1,false,false,false,false,false
+"  - frax-ether-staking-arbitrum",1,false,false,false,false,false
+"  - frax-ether-staking-bsc",1,false,false,false,false,false
+"  - frax-ether-staking-ethereum",1,false,false,false,false,false
+"  - frax-ether-staking-fantom",1,false,false,false,false,false
+"  - frax-ether-staking-moonbeam",1,false,false,false,false,false
+"  - frax-ether-staking-optimism",1,false,false,false,false,false
+"  - frax-ether-staking-polygon",1,false,false,false,false,false
+"  - friend-tech-base",1,false,false,false,false,false
+"  - fx-protocol-ethereum",1,false,false,false,false,false
+"  - gains-trade-arbitrum",1,false,false,false,false,false
+"  - gains-trade-polygon",1,false,false,false,false,false
+"  - gamma-strategies-arbitrum",1,false,false,false,false,false
+"  - gamma-strategies-ethereum",1,false,false,false,false,false
+"  - gamma-strategies-optimism",1,false,false,false,false,false
+"  - gamma-strategies-polygon",1,false,false,false,false,false
+"  - gaurda-staking-ethereum",1,false,false,false,false,false
+"  - geist-finance-fantom",1,false,false,false,false,false
+"  - geode-avalanche",1,false,false,false,false,false
+"  - gitcoin-governance-ethereum",1,false,false,false,false,false
+"  - gmx-arbitrum",1,false,false,false,false,false
+"  - gmx-avalanche",1,false,false,false,false,false
+"  - gogopool-avalanche",1,false,false,false,false,false
+"  - goldfinch-ethereum",1,false,false,false,false,false
+"  - gudchain-ethereum",1,false,false,false,false,false
+"  - hifi-governance-ethereum",1,false,false,false,false,false
+"  - honeyswap-gnosis",1,false,false,false,false,false
+"  - honeyswap-polygon",1,false,false,false,false,false
+"  - hop-governance-ethereum",1,false,false,false,false,false
+"  - hop-protocol-arbitrum",1,false,false,false,false,false
+"  - hop-protocol-ethereum",1,false,false,false,false,false
+"  - hop-protocol-optimism",1,false,false,false,false,false
+"  - hop-protocol-polygon",1,false,false,false,false,false
+"  - hop-protocol-polygon-zkevm",1,false,false,false,false,false
+"  - hop-protocol-xdai",1,false,false,false,false,false
+"  - hord-fi-ethereum",1,false,false,false,false,false
+"  - hyperlock-finance-blast",1,false,false,false,false,false
+"  - idle-governance-ethereum",1,false,false,false,false,false
+"  - idle-governance-v1-ethereum",1,false,false,false,false,false
+"  - iguanadex-v3-etherlink-mainnet",1,false,false,false,false,false
+"  - inception-ethereum",1,false,false,false,false,false
+"  - indexed-governance-ethereum",1,false,false,false,false,false
+"  - inverse-finance-ethereum",1,false,false,false,false,false
+"  - iron-bank-avalanche",1,false,false,false,false,false
+"  - iron-bank-ethereum",1,false,false,false,false,false
+"  - iron-bank-fantom",1,false,false,false,false,false
+"  - iron-bank-optimism",1,false,false,false,false,false
+"  - juno",1,false,false,false,false,false
+"  - karak-arbitrum",1,false,false,false,false,false
+"  - karak-bsc",1,false,false,false,false,false
+"  - karak-ethereum",1,false,false,false,false,false
+"  - kelp-dao-ethereum",1,false,false,false,false,false
+"  - kernel-protocol-ethereum",1,false,false,false,false,false
+"  - kinza-finance-bsc",1,false,false,false,false,false
+"  - klimadao-polygon",1,false,false,false,false,false
+"  - kwenta-optimism",1,false,false,false,false,false
+"  - level-finance-arbitrum",1,false,false,false,false,false
+"  - level-finance-bsc",1,false,false,false,false,false
+"  - lido-ethereum",1,false,false,false,false,false
+"  - lilnouns-governance-ethereum",1,false,false,false,false,false
+"  - liquid-collective-ethereum",1,false,false,false,false,false
+"  - liquity-ethereum",1,false,false,false,false,false
+"  - livepeer-arbitrum",1,false,false,false,false,false
+"  - llama-airforce-ethereum",1,false,false,false,false,false
+"  - looksrare-ethereum",1,false,false,false,false,false
+"  - lybra-finance-ethereum",1,false,false,false,false,false
+"  - m0-power-ethereum",1,false,false,false,false,false
+"  - maker-governance-ethereum",1,false,false,false,false,false
+"  - makerdao-ethereum",1,false,false,false,false,false
+"  - mantle-staked-eth-ethereum",1,false,false,false,false,false
+"  - maple-finance-v1-ethereum",1,false,false,false,false,false
+"  - maple-finance-v2-ethereum",1,false,false,false,false,false
+"  - matrixdock-ethereum",1,false,false,false,false,false
+"  - mellow-lrt-ethereum",1,false,false,false,false,false
+"  - mev-protocol-ethereum",1,false,false,false,false,false
+"  - mm-finance-cronos",1,false,false,false,false,false
+"  - mm-finance-polygon",1,false,false,false,false,false
+"  - moonwell-base",1,false,false,false,false,false
+"  - moonwell-moonbeam",1,false,false,false,false,false
+"  - moonwell-moonriver",1,false,false,false,false,false
+"  - morpho-aave-v2-ethereum",1,false,false,false,false,false
+"  - morpho-aave-v3-ethereum",1,false,false,false,false,false
+"  - morpho-blue-ethereum",1,false,false,false,false,false
+"  - morpho-compound-ethereum",1,false,false,false,false,false
+"  - mountain-protocol-arbitrum",1,false,false,false,false,false
+"  - mountain-protocol-base",1,false,false,false,false,false
+"  - mountain-protocol-ethereum",1,false,false,false,false,false
+"  - mountain-protocol-optimism",1,false,false,false,false,false
+"  - mountain-protocol-polygon",1,false,false,false,false,false
+"  - multichain-arbitrum",1,false,false,false,false,false
+"  - multichain-avalanche",1,false,false,false,false,false
+"  - multichain-bsc",1,false,false,false,false,false
+"  - multichain-celo",1,false,false,false,false,false
+"  - multichain-ethereum",1,false,false,false,false,false
+"  - multichain-fantom",1,false,false,false,false,false
+"  - multichain-gnosis",1,false,false,false,false,false
+"  - multichain-optimism",1,false,false,false,false,false
+"  - multichain-polygon",1,false,false,false,false,false
+"  - mummy-finance-arbitrum",1,false,false,false,false,false
+"  - mummy-finance-fantom",1,false,false,false,false,false
+"  - mummy-finance-optimism",1,false,false,false,false,false
+"  - mux-protocol-arbitrum",1,false,false,false,false,false
+"  - mux-protocol-avalanche",1,false,false,false,false,false
+"  - mux-protocol-bsc",1,false,false,false,false,false
+"  - mux-protocol-fantom",1,false,false,false,false,false
+"  - mux-protocol-optimism",1,false,false,false,false,false
+"  - near-mainnet",1,false,false,false,false,false
+"  - nexus-mutual-ethereum",1,false,false,false,false,false
+"  - node-dao-ethereum",1,false,false,false,false,false
+"  - notional-finance-ethereum",1,false,false,false,false,false
+"  - nouns-governance-ethereum",1,false,false,false,false,false
+"  - ooki-governance-ethereum",1,false,false,false,false,false
+"  - opensea-seaport-ethereum",1,false,false,false,false,false
+"  - opensea-v1-ethereum",1,false,false,false,false,false
+"  - opensea-v2-ethereum",1,false,false,false,false,false
+"  - optimism-bridge-v2-ethereum",1,false,false,false,false,false
+"  - optimism-bridge-v2-optimism",1,false,false,false,false,false
+"  - optimism-governance-optimism",1,false,false,false,false,false
+"  - opyn-gamma-arbitrum",1,false,false,false,false,false
+"  - opyn-gamma-avalanche",1,false,false,false,false,false
+"  - opyn-gamma-ethereum",1,false,false,false,false,false
+"  - opyn-gamma-polygon",1,false,false,false,false,false
+"  - ora-protocol-ethereum",1,false,false,false,false,false
+"  - orbit-bsc",1,false,false,false,false,false
+"  - orbit-celo",1,false,false,false,false,false
+"  - orbit-ethereum",1,false,false,false,false,false
+"  - orbit-heco",1,false,false,false,false,false
+"  - orbit-klaytn",1,false,false,false,false,false
+"  - orbit-polygon",1,false,false,false,false,false
+"  - origin-ether-ethereum",1,false,false,false,false,false
+"  - osmosis",1,false,false,false,false,false
+"  - osmosis-dex-osmosis",1,false,false,false,false,false
+"  - ousd-governance-ethereum",1,false,false,false,false,false
+"  - pac-finance-blast",1,false,false,false,false,false
+"  - pancakeswap-v2-swap-bsc",1,false,false,false,false,false
+"  - pancakeswap-v3-bsc",1,false,false,false,false,false
+"  - pancakeswap-v3-ethereum",1,false,false,false,false,false
+"  - pancakeswap-v3-swap-bsc",1,false,false,false,false,false
+"  - pancakeswap-v3-swap-ethereum",1,false,false,false,false,false
+"  - pangolin-avalanche",1,false,false,false,false,false
+"  - paxos-gold-ethereum",1,false,false,false,false,false
+"  - platypus-finance-avalanche",1,false,false,false,false,false
+"  - pooltogether-governance-ethereum",1,false,false,false,false,false
+"  - portal-avalanche",1,false,false,false,false,false
+"  - portal-bsc",1,false,false,false,false,false
+"  - portal-ethereum",1,false,false,false,false,false
+"  - portal-fantom",1,false,false,false,false,false
+"  - portal-polygon",1,false,false,false,false,false
+"  - powh3d-ethereum",1,false,false,false,false,false
+"  - prime-staked-eth-ethereum",1,false,false,false,false,false
+"  - puffer-finance-ethereum",1,false,false,false,false,false
+"  - qidao-arbitrum",1,false,false,false,false,false
+"  - qidao-avalanche",1,false,false,false,false,false
+"  - qidao-base",1,false,false,false,false,false
+"  - qidao-bsc",1,false,false,false,false,false
+"  - qidao-ethereum",1,false,false,false,false,false
+"  - qidao-fantom",1,false,false,false,false,false
+"  - qidao-gnosis",1,false,false,false,false,false
+"  - qidao-harmony",1,false,false,false,false,false
+"  - qidao-moonriver",1,false,false,false,false,false
+"  - qidao-optimism",1,false,false,false,false,false
+"  - qidao-polygon",1,false,false,false,false,false
+"  - quickswap-polygon",1,false,false,false,false,false
+"  - quickswap-swap-polygon",1,false,false,false,false,false
+"  - radiant-capital-arbitrum",1,false,false,false,false,false
+"  - radiant-capital-v2-arbitrum",1,false,false,false,false,false
+"  - radiant-capital-v2-bsc",1,false,false,false,false,false
+"  - radicle-governance-ethereum",1,false,false,false,false,false
+"  - rari-fuse-arbitrum",1,false,false,false,false,false
+"  - rari-fuse-ethereum",1,false,false,false,false,false
+"  - rari-vaults-ethereum",1,false,false,false,false,false
+"  - rarible-governance-ethereum",1,false,false,false,false,false
+"  - reflexer-governance-ethereum",1,false,false,false,false,false
+"  - renzo-arbitrum",1,false,false,false,false,false
+"  - renzo-base",1,false,false,false,false,false
+"  - renzo-blast",1,false,false,false,false,false
+"  - renzo-bsc",1,false,false,false,false,false
+"  - renzo-ethereum",1,false,false,false,false,false
+"  - renzo-mode",1,false,false,false,false,false
+"  - ribbon-finance-avalanche",1,false,false,false,false,false
+"  - ribbon-finance-ethereum",1,false,false,false,false,false
+"  - ring-few-blast",1,false,false,false,false,false
+"  - rocket-pool-ethereum",1,false,false,false,false,false
+"  - saddle-finance-arbitrum",1,false,false,false,false,false
+"  - saddle-finance-ethereum",1,false,false,false,false,false
+"  - saddle-finance-fantom",1,false,false,false,false,false
+"  - saddle-finance-optimism",1,false,false,false,false,false
+"  - scream-fantom",1,false,false,false,false,false
+"  - seamless-protocol-base",1,false,false,false,false,false
+"  - seismic-blast",1,false,false,false,false,false
+"  - silo-governance-ethereum",1,false,false,false,false,false
+"  - slisbnb-bsc",1,false,false,false,false,false
+"  - solarbeam-moonriver",1,false,false,false,false,false
+"  - sonne-finance-optimism",1,false,false,false,false,false
+"  - spark-lend-ethereum",1,false,false,false,false,false
+"  - spark-lend-gnosis",1,false,false,false,false,false
+"  - spiko-ethereum",1,false,false,false,false,false
+"  - spiko-polygon",1,false,false,false,false,false
+"  - spiritswap-fantom",1,false,false,false,false,false
+"  - spookyswap-fantom",1,false,false,false,false,false
+"  - spookyswap-swap-fantom",1,false,false,false,false,false
+"  - stader-ethereum",1,false,false,false,false,false
+"  - stake-link-liquid-ethereum",1,false,false,false,false,false
+"  - stakedao-ethereum",1,false,false,false,false,false
+"  - stakestone-ethereum",1,false,false,false,false,false
+"  - stakewise-v2-ethereum",1,false,false,false,false,false
+"  - stakewise-v2-gnosis",1,false,false,false,false,false
+"  - stargate-arbitrum",1,false,false,false,false,false
+"  - stargate-avalanche",1,false,false,false,false,false
+"  - stargate-base",1,false,false,false,false,false
+"  - stargate-bsc",1,false,false,false,false,false
+"  - stargate-ethereum",1,false,false,false,false,false
+"  - stargate-fantom",1,false,false,false,false,false
+"  - stargate-metis",1,false,false,false,false,false
+"  - stargate-optimism",1,false,false,false,false,false
+"  - stargate-polygon",1,false,false,false,false,false
+"  - stcelo-celo",1,false,false,false,false,false
+"  - stream-finance-ethereum",1,false,false,false,false,false
+"  - superlend-etherlink-mainnet",1,false,false,false,false,false
+"  - superseed-ethereum",1,false,false,false,false,false
+"  - sushiswap-arbitrum",1,false,false,false,false,false
+"  - sushiswap-avalanche",1,false,false,false,false,false
+"  - sushiswap-bsc",1,false,false,false,false,false
+"  - sushiswap-celo",1,false,false,false,false,false
+"  - sushiswap-ethereum",1,false,false,false,false,false
+"  - sushiswap-fantom",1,false,false,false,false,false
+"  - sushiswap-fuse",1,false,false,false,false,false
+"  - sushiswap-gnosis",1,false,false,false,false,false
+"  - sushiswap-harmony",1,false,false,false,false,false
+"  - sushiswap-moonbeam",1,false,false,false,false,false
+"  - sushiswap-moonriver",1,false,false,false,false,false
+"  - sushiswap-polygon",1,false,false,false,false,false
+"  - sushiswap-v3-arbitrum",1,false,false,false,false,false
+"  - sushiswap-v3-avalanche",1,false,false,false,false,false
+"  - sushiswap-v3-bsc",1,false,false,false,false,false
+"  - sushiswap-v3-ethereum",1,false,false,false,false,false
+"  - sushiswap-v3-fantom",1,false,false,false,false,false
+"  - sushiswap-v3-fuse",1,false,false,false,false,false
+"  - sushiswap-v3-gnosis",1,false,false,false,false,false
+"  - sushiswap-v3-moonriver",1,false,false,false,false,false
+"  - sushiswap-v3-optimism",1,false,false,false,false,false
+"  - sushiswap-v3-polygon",1,false,false,false,false,false
+"  - sushiswap-v3-swap-base",1,false,false,false,false,false
+"  - suzaku-avalanche",1,false,false,false,false,false
+"  - swell-liquid-staking-ethereum",1,false,false,false,false,false
+"  - symbiotic-ethereum",1,false,false,false,false,false
+"  - tectonic-cronos",1,false,false,false,false,false
+"  - tenderize-v2-arbitrum",1,false,false,false,false,false
+"  - tenderize-v2-ethereum",1,false,false,false,false,false
+"  - tensorplex-ethereum",1,false,false,false,false,false
+"  - tether-gold-ethereum",1,false,false,false,false,false
+"  - the-graph-arbitrum",1,false,false,false,false,false
+"  - the-graph-ethereum",1,false,false,false,false,false
+"  - threshold-governance-ethereum",1,false,false,false,false,false
+"  - tokemak-ethereum",1,false,false,false,false,false
+"  - tornado-cash-classic-bsc",1,false,false,false,false,false
+"  - tornado-cash-classic-ethereum",1,false,false,false,false,false
+"  - trader-joe-avalanche",1,false,false,false,false,false
+"  - trisolaris-aurora",1,false,false,false,false,false
+"  - truefi-ethereum",1,false,false,false,false,false
+"  - truefi-governance-ethereum",1,false,false,false,false,false
+"  - ubeswap-celo",1,false,false,false,false,false
+"  - umami-finance-arbitrum",1,false,false,false,false,false
+"  - uniswap-governance-ethereum",1,false,false,false,false,false
+"  - uniswap-governance-v1-ethereum",1,false,false,false,false,false
+"  - uniswap-governance-v2-ethereum",1,false,false,false,false,false
+"  - uniswap-v2-ethereum",1,false,false,false,false,false
+"  - uniswap-v2-swap-ethereum",1,false,false,false,false,false
+"  - uniswap-v3-arbitrum",1,false,false,false,false,false
+"  - uniswap-v3-base",1,false,false,false,false,false
+"  - uniswap-v3-bsc",1,false,false,false,false,false
+"  - uniswap-v3-celo",1,false,false,false,false,false
+"  - uniswap-v3-ethereum",1,false,false,false,false,false
+"  - uniswap-v3-optimism",1,false,false,false,false,false
+"  - uniswap-v3-polygon",1,false,false,false,false,false
+"  - uniswap-v3-swap-base",1,false,false,false,false,false
+"  - uniswap-v3-swap-optimism",1,false,false,false,false,false
+"  - unlock-governance-ethereum",1,false,false,false,false,false
+"  - unslashed-governance-ethereum",1,false,false,false,false,false
+"  - usual-ethereum",1,false,false,false,false,false
+"  - uwu-lend-ethereum",1,false,false,false,false,false
+"  - vaultka-arbitrum",1,false,false,false,false,false
+"  - velodrome-finance-v1-optimism",1,false,false,false,false,false
+"  - velodrome-finance-v2-optimism",1,false,false,false,false,false
+"  - venus-protocol-bsc",1,false,false,false,false,false
+"  - vesper-finance-ethereum",1,false,false,false,false,false
+"  - vesta-finance-arbitrum",1,false,false,false,false,false
+"  - vvs-finance-cronos",1,false,false,false,false,false
+"  - x2y2-ethereum",1,false,false,false,false,false
+"  - yearn-v2-arbitrum",1,false,false,false,false,false
+"  - yearn-v2-ethereum",1,false,false,false,false,false
+"  - yearn-v2-fantom",1,false,false,false,false,false
+"  - yeti-finance-avalanche",1,false,false,false,false,false
+"  - yieldnest-bsc",1,false,false,false,false,false
+"  - yieldnest-ethereum",1,false,false,false,false,false
+"  - yieldyak-staked-avax-avalanche",1,false,false,false,false,false
+"  - zerolend-blast",1,false,false,false,false,false
+"  - zerolend-ethereum",1,false,false,false,false,false
+"  - zerolend-linea",1,false,false,false,false,false
+"  - zerolend-xlayer",1,false,false,false,false,false
+"  - zerolend-zksync-era",1,false,false,false,false,false
+"  - zircuit-staking-ethereum",1,false,false,false,false,false
+"- aave-forks",0,false,false,false,true,false
+"- aave-governance",0,false,true,false,false,false
+"- abracadabra",0,false,false,false,true,false
+"- arrakis-finance",0,false,false,false,true,false
+"- aura-finance",0,false,false,false,true,false
+"- axelar",0,true,false,false,false,false
+"- badgerdao",0,true,false,false,true,false
+"- balancer-forks",0,false,false,false,true,false
+"- bancor-v3",0,false,false,false,true,false
+"- bedrock-unieth",0,true,false,false,false,false
+"- belt-finance",0,false,false,false,true,false
+"- cbridge",0,true,false,false,false,false
+"- chainlink-staking",0,false,false,false,true,false
+"- compound-forks",0,false,false,false,true,false
+"- compound-v3",0,false,false,false,true,false
+"- convex-finance",0,true,false,false,true,false
+"- cronos-dummy",0,false,false,true,false,false
+"- curve-finance",0,false,false,false,true,false
+"- ellipsis-finance",0,false,false,false,true,false
+"- erc20",0,false,true,false,true,false
+"- erc721-metadata",0,false,true,false,false,false
+"- etherfi",0,true,false,false,true,false
+"- gamma-strategies",0,false,false,false,true,false
+"- gmx-forks",0,false,false,false,true,false
+"- goldfinch",0,false,false,false,true,false
+"- inverse-finance",0,false,false,false,true,false
+"- karak",0,false,false,false,true,false
+"- kwenta",0,false,false,false,true,false
+"- maker-governance",0,true,false,false,true,false
+"- makerdao",0,false,false,false,true,false
+"- maple-finance-v1",0,true,false,false,true,false
+"- maple-finance-v2",0,false,false,false,true,false
+"- morpho",0,false,false,false,true,false
+"- morpho-blue",0,true,false,false,true,false
+"- multichain",0,false,false,false,true,false
+"- network",0,false,false,true,false,false
+"- nexus-mutual",0,false,false,false,true,false
+"- opensea",0,true,false,false,false,false
+"- optimism-bridge-v2",0,false,false,false,true,false
+"- opyn-gamma",0,false,false,false,true,false
+"- platypus-finance",0,false,false,false,true,false
+"- portal",0,true,false,false,false,false
+"- puffer-finance",0,true,false,false,false,false
+"- qidao",0,false,false,false,true,false
+"- ribbon-finance",0,false,false,false,true,false
+"- ring-few",0,false,false,false,true,false
+"- rocket-pool",0,true,false,false,true,false
+"- saddle-finance",0,false,false,false,true,false
+"- stakedao",0,true,false,false,true,false
+"- stakestone",0,true,false,false,false,false
+"- stakewise-v2",0,false,false,false,true,false
+"- stargate",0,false,false,false,true,false
+"- suzaku",0,false,false,false,true,false
+"- symbiotic",0,false,false,false,true,false
+"- tenderize-v2",0,false,false,false,true,false
+"- tokemak",0,true,false,false,true,false
+"- truefi",0,true,false,false,true,false
+"- uniswap-forks",0,true,false,false,true,false
+"- uniswap-forks-swap",0,false,false,false,true,false
+"- uniswap-v3-forks",0,false,false,false,true,false
+"- uniswap-v3-forks-swap",0,false,false,false,true,false
+"- velodrome-finance",0,false,false,false,true,false
+"- vesper-finance",0,false,false,false,true,false
+"- vesta-finance",0,false,false,false,true,false
+"- yearn-v2",0,true,false,false,true,false
+"> find-block-handlers",0,false,false,true,false,false
+"> find-call-handlers",0,true,false,false,false,false
+"> find-contract-calls",0,false,false,false,false,true
+"> find-dynamic-contracts",0,false,false,false,true,false
+"> find-ipfs-integrations",0,false,true,false,false,false
+"> ts-node scripts/find-block-handlers.ts",0,false,false,true,false,false
+"> ts-node scripts/find-call-handlers.ts",0,true,false,false,false,false
+"> ts-node scripts/find-contract-calls.ts",0,false,false,false,false,true
+"> ts-node scripts/find-dynamic-contracts.ts",0,false,false,false,true,false
+"> ts-node scripts/find-ipfs-integrations.ts",0,false,true,false,false,false
+"aave-forks",1,false,false,false,true,true
+"aave-forks (35 networks):",1,false,false,false,false,false
+"aave-governance",0,false,true,false,false,true
+"aave-governance (2 networks):",1,false,false,false,false,false
+"abracadabra",0,false,false,false,true,true
+"abracadabra (5 networks):",1,false,false,false,false,false
+"across-v2",0,false,false,false,false,true
+"across-v2 (5 networks):",1,false,false,false,false,false
+"affine-restaking",0,false,false,false,false,true
+"affine-restaking (2 networks):",1,false,false,false,false,false
+"alpaca-finance-lending",0,false,false,false,false,true
+"alpaca-finance-lending (2 networks):",1,false,false,false,false,false
+"amphor",0,false,false,false,false,true
+"amphor (1 networks):",1,false,false,false,false,false
+"anzen-v2",0,false,false,false,false,true
+"anzen-v2 (4 networks):",1,false,false,false,false,false
+"aqua-patina",0,false,false,false,false,true
+"aqua-patina (1 networks):",1,false,false,false,false,false
+"arbitrum-one-bridge",0,false,false,false,false,true
+"arbitrum-one-bridge (2 networks):",1,false,false,false,false,false
+"arrakis-finance",0,false,false,false,true,true
+"arrakis-finance (3 networks):",1,false,false,false,false,false
+"aspida",0,false,false,false,false,true
+"aspida (1 networks):",1,false,false,false,false,false
+"aura-finance",0,false,false,false,true,true
+"aura-finance (1 networks):",1,false,false,false,false,false
+"aurus",0,false,false,false,false,true
+"aurus (1 networks):",1,false,false,false,false,false
+"axelar",0,true,false,false,false,true
+"axelar (8 networks):",1,false,false,false,false,false
+"badgerdao",0,true,false,false,true,true
+"badgerdao (1 networks):",1,false,false,false,false,false
+"balancer-forks",0,false,false,false,true,true
+"balancer-forks (5 networks):",1,false,false,false,false,false
+"bancor-v3",0,false,false,false,true,true
+"bancor-v3 (1 networks):",1,false,false,false,false,false
+"bedrock-unieth",0,true,false,false,false,true
+"bedrock-unieth (1 networks):",1,false,false,false,false,false
+"beefy-finance",0,false,false,false,false,true
+"beefy-finance (13 networks):",1,false,false,false,false,false
+"beethovenx-sftmx",0,false,false,false,false,true
+"beethovenx-sftmx (1 networks):",1,false,false,false,false,false
+"belt-finance",0,false,false,false,true,true
+"belt-finance (1 networks):",1,false,false,false,false,false
+"benqi-staked-avax",0,false,false,false,false,true
+"benqi-staked-avax (1 networks):",1,false,false,false,false,false
+"binance-staked-eth",0,false,false,false,false,true
+"binance-staked-eth (2 networks):",1,false,false,false,false,false
+"blackwing",0,false,false,false,false,true
+"blackwing (3 networks):",1,false,false,false,false,false
+"bob-fusion",0,false,false,false,false,true
+"bob-fusion (1 networks):",1,false,false,false,false,false
+"bracket-escrow-staking",0,false,false,false,false,true
+"bracket-escrow-staking (2 networks):",1,false,false,false,false,false
+"burrow (1 networks):",1,false,false,false,false,false
+"cbridge",0,true,false,false,false,true
+"cbridge (14 networks):",1,false,false,false,false,false
+"chainlink-staking",0,false,false,false,true,true
+"chainlink-staking (1 networks):",1,false,false,false,false,false
+"coinbase-wrapped-staked-eth",0,false,false,false,false,true
+"coinbase-wrapped-staked-eth (1 networks):",1,false,false,false,false,false
+"compound-forks",1,false,false,false,true,true
+"compound-forks (28 networks):",1,false,false,false,false,false
+"compound-v3",4,false,false,false,true,true
+"compound-v3 (4 networks):",1,false,false,false,false,false
+"concentrator",1,false,false,false,false,true
+"concentrator (1 networks):",1,false,false,false,false,false
+"convex-finance",1,true,false,false,true,true
+"convex-finance (1 networks):",1,false,false,false,false,false
+"creth2",1,false,false,false,false,true
+"creth2 (1 networks):",1,false,false,false,false,false
+"cronos-dummy",1,false,false,true,false,false
+"cronos-dummy (1 networks):",1,false,false,false,false,false
+"cryptopunks",1,false,false,false,false,true
+"cryptopunks (1 networks):",1,false,false,false,false,false
+"curve-finance",10,false,false,false,true,true
+"curve-finance (10 networks):",1,false,false,false,false,false
+"cygnus-finance",1,false,false,false,false,true
+"cygnus-finance (1 networks):",1,false,false,false,false,false
+"deq",1,false,false,false,false,true
+"deq (1 networks):",1,false,false,false,false,false
+"dinero-pxeth",1,false,false,false,false,true
+"dinero-pxeth (1 networks):",1,false,false,false,false,false
+"dopex",2,false,false,false,false,true
+"dopex (2 networks):",1,false,false,false,false,false
+"eigenlayer",1,false,false,false,false,true
+"eigenlayer (1 networks):",1,false,false,false,false,false
+"eigenpie",1,false,false,false,false,true
+"eigenpie (1 networks):",1,false,false,false,false,false
+"ellipsis-finance",1,false,false,false,true,true
+"ellipsis-finance (1 networks):",1,false,false,false,false,false
+"erc20",6,false,true,false,true,true
+"erc20 (6 networks):",1,false,false,false,false,false
+"erc721-holders",1,false,false,false,false,true
+"erc721-holders (1 networks):",1,false,false,false,false,false
+"erc721-metadata",1,false,true,false,false,true
+"erc721-metadata (1 networks):",1,false,false,false,false,false
+"etherfi",1,true,false,false,true,true
+"etherfi (1 networks):",1,false,false,false,false,false
+"euler-finance",1,false,false,false,false,true
+"euler-finance (1 networks):",1,false,false,false,false,false
+"flat-money",1,false,false,false,false,true
+"flat-money (1 networks):",1,false,false,false,false,false
+"frax-ether-staking",7,false,false,false,false,true
+"frax-ether-staking (7 networks):",1,false,false,false,false,false
+"friend-tech",1,false,false,false,false,true
+"friend-tech (1 networks):",1,false,false,false,false,false
+"fx-protocol",1,false,false,false,false,true
+"fx-protocol (1 networks):",1,false,false,false,false,false
+"gains-trade",2,false,false,false,false,true
+"gains-trade (2 networks):",1,false,false,false,false,false
+"gamma-strategies",4,false,false,false,true,true
+"gamma-strategies (4 networks):",1,false,false,false,false,false
+"gaurda-staking",1,false,false,false,false,true
+"gaurda-staking (1 networks):",1,false,false,false,false,false
+"geode",1,false,false,false,false,true
+"geode (1 networks):",1,false,false,false,false,false
+"gmx-forks",5,false,false,false,true,true
+"gmx-forks (5 networks):",1,false,false,false,false,false
+"gogopool",1,false,false,false,false,true
+"gogopool (1 networks):",1,false,false,false,false,false
+"goldfinch",1,false,false,false,true,true
+"goldfinch (1 networks):",1,false,false,false,false,false
+"governor-alpha-bravo",19,false,false,false,false,true
+"governor-alpha-bravo (19 networks):",1,false,false,false,false,false
+"gudchain",1,false,false,false,false,true
+"gudchain (1 networks):",1,false,false,false,false,false
+"hop-protocol",6,false,false,false,false,true
+"hop-protocol (6 networks):",1,false,false,false,false,false
+"hord-fi",1,false,false,false,false,true
+"hord-fi (1 networks):",1,false,false,false,false,false
+"hyperlock-finance",1,false,false,false,false,true
+"hyperlock-finance (1 networks):",1,false,false,false,false,false
+"inception",1,false,false,false,false,true
+"inception (1 networks):",1,false,false,false,false,false
+"inverse-finance",1,false,false,false,true,true
+"inverse-finance (1 networks):",1,false,false,false,false,false
+"karak",3,false,false,false,true,true
+"karak (3 networks):",1,false,false,false,false,false
+"kelp-dao",1,false,false,false,false,true
+"kelp-dao (1 networks):",1,false,false,false,false,false
+"kernel-protocol",1,false,false,false,false,true
+"kernel-protocol (1 networks):",1,false,false,false,false,false
+"klimadao",1,false,false,false,false,true
+"klimadao (1 networks):",1,false,false,false,false,false
+"kwenta",1,false,false,false,true,true
+"kwenta (1 networks):",1,false,false,false,false,false
+"level-finance",2,false,false,false,false,true
+"level-finance (2 networks):",1,false,false,false,false,false
+"lido",1,false,false,false,false,true
+"lido (1 networks):",1,false,false,false,false,false
+"liquid-collective",1,false,false,false,false,true
+"liquid-collective (1 networks):",1,false,false,false,false,false
+"liquity",1,false,false,false,false,true
+"liquity (1 networks):",1,false,false,false,false,false
+"livepeer",1,false,false,false,false,true
+"livepeer (1 networks):",1,false,false,false,false,false
+"llama-airforce",1,false,false,false,false,true
+"llama-airforce (1 networks):",1,false,false,false,false,false
+"looksrare",1,false,false,false,false,true
+"looksrare (1 networks):",1,false,false,false,false,false
+"lybra-finance",1,false,false,false,false,true
+"lybra-finance (1 networks):",1,false,false,false,false,false
+"m0-power",1,false,false,false,false,true
+"m0-power (1 networks):",1,false,false,false,false,false
+"maker-governance",1,true,false,false,true,true
+"maker-governance (1 networks):",1,false,false,false,false,false
+"makerdao",1,false,false,false,true,true
+"makerdao (1 networks):",1,false,false,false,false,false
+"mantle-staked-eth",1,false,false,false,false,true
+"mantle-staked-eth (1 networks):",1,false,false,false,false,false
+"maple-finance-v1",1,true,false,false,true,true
+"maple-finance-v1 (1 networks):",1,false,false,false,false,false
+"maple-finance-v2",1,false,false,false,true,true
+"maple-finance-v2 (1 networks):",1,false,false,false,false,false
+"matrixdock",1,false,false,false,false,true
+"matrixdock (1 networks):",1,false,false,false,false,false
+"mellow-lrt",1,false,false,false,false,true
+"mellow-lrt (1 networks):",1,false,false,false,false,false
+"mev-protocol",1,false,false,false,false,true
+"mev-protocol (1 networks):",1,false,false,false,false,false
+"morpho",3,false,false,false,true,true
+"morpho (3 networks):",1,false,false,false,false,false
+"morpho-blue",1,true,false,false,true,true
+"morpho-blue (1 networks):",1,false,false,false,false,false
+"mountain-protocol",5,false,false,false,false,true
+"mountain-protocol (5 networks):",1,false,false,false,false,false
+"multichain",9,false,false,false,true,true
+"multichain (9 networks):",1,false,false,false,false,false
+"mux-protocol",5,false,false,false,false,true
+"mux-protocol (5 networks):",1,false,false,false,false,false
+"network",24,false,false,true,false,false
+"network (24 networks):",1,false,false,false,false,false
+"Network deployments by project:",1,false,false,false,false,false
+"nexus-mutual",1,false,false,false,true,true
+"nexus-mutual (1 networks):",1,false,false,false,false,false
+"node-dao",1,false,false,false,false,true
+"node-dao (1 networks):",1,false,false,false,false,false
+"notional-finance",1,false,false,false,false,true
+"notional-finance (1 networks):",1,false,false,false,false,false
+"opensea",2,true,false,false,false,true
+"opensea (2 networks):",1,false,false,false,false,false
+"openzeppelin-governor",13,false,false,false,false,true
+"openzeppelin-governor (13 networks):",1,false,false,false,false,false
+"optimism-bridge-v2",2,false,false,false,true,true
+"optimism-bridge-v2 (2 networks):",1,false,false,false,false,false
+"opyn-gamma",4,false,false,false,true,true
+"opyn-gamma (4 networks):",1,false,false,false,false,false
+"ora-protocol",1,false,false,false,false,true
+"ora-protocol (1 networks):",1,false,false,false,false,false
+"orbit",6,false,false,false,false,true
+"orbit (6 networks):",1,false,false,false,false,false
+"origin-ether",1,false,false,false,false,true
+"origin-ether (1 networks):",1,false,false,false,false,false
+"osmosis-dex",1,false,false,false,false,false
+"osmosis-dex (1 networks):",1,false,false,false,false,false
+"paxos-gold",1,false,false,false,false,true
+"paxos-gold (1 networks):",1,false,false,false,false,false
+"platypus-finance",1,false,false,false,true,true
+"platypus-finance (1 networks):",1,false,false,false,false,false
+"portal",5,true,false,false,false,true
+"portal (5 networks):",1,false,false,false,false,false
+"powh3d",1,false,false,false,false,true
+"powh3d (1 networks):",1,false,false,false,false,false
+"prime-staked-eth",1,false,false,false,false,true
+"prime-staked-eth (1 networks):",1,false,false,false,false,false
+"project",0,true,true,true,true,true
+"Projects with blockHandlers:",0,false,false,true,false,false
+"Projects with blockHandlers: 2 / 171",0,false,false,true,false,false
+"Projects with callHandlers:",0,true,false,false,false,false
+"Projects with callHandlers: 19 / 171",0,true,false,false,false,false
+"Projects with contract calls: 155 / 171",0,false,false,false,false,true
+"Projects with dynamic contracts:",0,false,false,false,true,false
+"Projects with dynamic contracts: 54 / 171",0,false,false,false,true,false
+"Projects with IPFS integrations:",0,false,true,false,false,false
+"Projects with IPFS integrations: 3 / 171",0,false,true,false,false,false
+"Projects with network deployments: 159",1,false,false,false,false,false
+"puffer-finance",1,true,false,false,false,true
+"puffer-finance (1 networks):",1,false,false,false,false,false
+"qidao",11,false,false,false,true,true
+"qidao (11 networks):",1,false,false,false,false,false
+"rari-vaults",1,false,false,false,false,true
+"rari-vaults (1 networks):",1,false,false,false,false,false
+"renzo",6,false,false,false,false,true
+"renzo (6 networks):",1,false,false,false,false,false
+"ribbon-finance",2,false,false,false,true,true
+"ribbon-finance (2 networks):",1,false,false,false,false,false
+"ring-few",1,false,false,false,true,true
+"ring-few (1 networks):",1,false,false,false,false,false
+"rocket-pool",1,true,false,false,true,true
+"rocket-pool (1 networks):",1,false,false,false,false,false
+"saddle-finance",4,false,false,false,true,true
+"saddle-finance (4 networks):",1,false,false,false,false,false
+"seaport",1,false,false,false,false,true
+"seaport (1 networks):",1,false,false,false,false,false
+"slisbnb",1,false,false,false,false,true
+"slisbnb (1 networks):",1,false,false,false,false,false
+"spiko",2,false,false,false,false,true
+"spiko (2 networks):",1,false,false,false,false,false
+"stader",1,false,false,false,false,true
+"stader (1 networks):",1,false,false,false,false,false
+"stake-link-liquid",1,false,false,false,false,true
+"stake-link-liquid (1 networks):",1,false,false,false,false,false
+"stakedao",1,true,false,false,true,true
+"stakedao (1 networks):",1,false,false,false,false,false
+"stakestone",1,true,false,false,false,true
+"stakestone (1 networks):",1,false,false,false,false,false
+"stakewise-v2",2,false,false,false,true,true
+"stakewise-v2 (2 networks):",1,false,false,false,false,false
+"stargate",9,false,false,false,true,true
+"stargate (9 networks):",1,false,false,false,false,false
+"stcelo",1,false,false,false,false,true
+"stcelo (1 networks):",1,false,false,false,false,false
+"stream-finance",1,false,false,false,false,true
+"stream-finance (1 networks):",1,false,false,false,false,false
+"Summary:",1,true,true,true,true,false
+"superseed",1,false,false,false,false,true
+"superseed (1 networks):",1,false,false,false,false,false
+"suzaku",1,false,false,false,true,true
+"suzaku (1 networks):",1,false,false,false,false,false
+"swell-liquid-staking",1,false,false,false,false,true
+"swell-liquid-staking (1 networks):",1,false,false,false,false,false
+"symbiotic",1,false,false,false,true,true
+"symbiotic (1 networks):",1,false,false,false,false,false
+"tenderize-v2",2,false,false,false,true,true
+"tenderize-v2 (2 networks):",1,false,false,false,false,false
+"tensorplex",1,false,false,false,false,true
+"tensorplex (1 networks):",1,false,false,false,false,false
+"tether-gold",1,false,false,false,false,true
+"tether-gold (1 networks):",1,false,false,false,false,false
+"the-graph",2,false,false,false,false,true
+"the-graph (2 networks):",1,false,false,false,false,false
+"tokemak",1,true,false,false,true,true
+"tokemak (1 networks):",1,false,false,false,false,false
+"tornado-cash",2,false,false,false,false,true
+"tornado-cash (2 networks):",1,false,false,false,false,false
+"Total blockHandlers found: 6",0,false,false,true,false,false
+"Total callHandlers found: 43",0,true,false,false,false,false
+"Total contract calls found: 3851",0,false,false,false,false,true
+"Total dynamic contracts found: 118",0,false,false,false,true,false
+"Total IPFS integrations found: 5",0,false,true,false,false,false
+"Total network deployments found: 495",1,false,false,false,false,false
+"truefi",1,true,false,false,true,true
+"truefi (1 networks):",1,false,false,false,false,false
+"umami-finance",1,false,false,false,false,true
+"umami-finance (1 networks):",1,false,false,false,false,false
+"und-forks/protocols/tectonic/config/deployments/tectonic-cronos",1,false,false,false,false,false
+"uniswap-forks",31,true,false,false,true,true
+"uniswap-forks (31 networks):",1,false,false,false,false,false
+"uniswap-forks-swap",5,false,false,false,true,true
+"uniswap-forks-swap (5 networks):",1,false,false,false,false,false
+"uniswap-v3-forks",20,false,false,false,true,true
+"uniswap-v3-forks (20 networks):",1,false,false,false,false,false
+"uniswap-v3-forks-swap",5,false,false,false,true,true
+"uniswap-v3-forks-swap (5 networks):",1,false,false,false,false,false
+"usual",1,false,false,false,false,true
+"usual (1 networks):",1,false,false,false,false,false
+"vaultka",1,false,false,false,false,true
+"vaultka (1 networks):",1,false,false,false,false,false
+"velodrome-finance",2,false,false,false,true,true
+"velodrome-finance (2 networks):",1,false,false,false,false,false
+"vesper-finance",1,false,false,false,true,true
+"vesper-finance (1 networks):",1,false,false,false,false,false
+"vesta-finance",1,false,false,false,true,true
+"vesta-finance (1 networks):",1,false,false,false,false,false
+"x2y2",1,false,false,false,false,true
+"x2y2 (1 networks):",1,false,false,false,false,false
+"yearn-v2",3,true,false,false,true,true
+"yearn-v2 (3 networks):",1,false,false,false,false,false
+"yeti-finance",1,false,false,false,false,true
+"yeti-finance (1 networks):",1,false,false,false,false,false
+"yieldnest",2,false,false,false,false,true
+"yieldnest (2 networks):",1,false,false,false,false,false
+"yieldyak-staked-avax",1,false,false,false,false,true
+"yieldyak-staked-avax (1 networks):",1,false,false,false,false,false
+"zircuit-staking",1,false,false,false,false,true
+"zircuit-staking (1 networks):",1,false,false,false,false,false

@@ -1,0 +1,30 @@
+
+> messari-subgraphs-feature-analysis@1.0.0 generate-feature-matrix
+> ts-node scripts/generate-feature-matrix.ts
+
+
+Feature Matrix Summary:
+Total protocols analyzed: 906
+Protocols with call handlers: 45 (5%)
+Protocols with IPFS: 13 (1%)
+Protocols with block handlers: 11 (1%)
+Protocols with dynamic contracts: 115 (13%)
+Protocols with contract calls: 160 (18%)
+
+Network distribution:
+Protocols with 0 network(s): 119 (13%)
+Protocols with 1 network(s): 746 (82%)
+Protocols with 2 network(s): 14 (2%)
+Protocols with 3 network(s): 3 (0%)
+Protocols with 4 network(s): 4 (0%)
+Protocols with 5 network(s): 6 (1%)
+Protocols with 6 network(s): 4 (0%)
+Protocols with 7 network(s): 1 (0%)
+Protocols with 9 network(s): 2 (0%)
+Protocols with 10 network(s): 1 (0%)
+Protocols with 11 network(s): 1 (0%)
+Protocols with 13 network(s): 1 (0%)
+Protocols with 19 network(s): 1 (0%)
+Protocols with 20 network(s): 1 (0%)
+Protocols with 24 network(s): 1 (0%)
+Protocols with 31 network(s): 1 (0%)

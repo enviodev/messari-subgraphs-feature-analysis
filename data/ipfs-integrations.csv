@@ -1,0 +1,19 @@
+
+> find-ipfs-integrations
+> ts-node scripts/find-ipfs-integrations.ts
+
+project,file,lineNumber,line
+aave-governance,subgraphs/aave-governance/protocols/aave-governance/config/templates/aave-governance.template.yaml,6,"- ipfsOnEthereumContracts"
+aave-governance,subgraphs/aave-governance/protocols/dydx-governance/config/templates/dydx-governance.template.yaml,6,"- ipfsOnEthereumContracts"
+erc20,subgraphs/erc20/protocols/erc20/config/templates/erc20.template.yaml,4,"- ipfsOnEthereumContracts"
+erc721-metadata,subgraphs/erc721-metadata/protocols/erc721-metadata/config/templates/erc721.metadata.template.yaml,3,"- ipfsOnEthereumContracts"
+erc721-metadata,subgraphs/erc721-metadata/subgraph.yaml,3,"- ipfsOnEthereumContracts"
+
+Summary:
+Total IPFS integrations found: 5
+Projects with IPFS integrations: 3 / 171
+
+Projects with IPFS integrations:
+- aave-governance
+- erc20
+- erc721-metadata

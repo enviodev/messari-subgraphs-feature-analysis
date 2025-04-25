@@ -1,7 +1,39 @@
 {
+  "name": "messari-subgraphs-feature-analysis",
+  "version": "1.0.0",
+  "description": "Analysis of Messari subgraphs features",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --loglevel silent --write \"**/*.{md,jsx,tsx,ts,json,html,css,js}\"",
+    "prettier-write": "prettier --write",
+    "prettier-check": "prettier --check",
+    "lint:fix": "npx eslint --fix --max-warnings 0",
+    "lint": "npx eslint",
+    "lint:subgraphs": "npx eslint -c subgraphs/.eslintrc.js",
+    "prepare": "husky install",
+    "folderslint": "cd subgraphs && folderslint",
+    "validate-protocols": "ts-node scripts/validate-protocols.ts",
+    "find-contract-calls": "ts-node scripts/find-contract-calls.ts",
+    "find-no-contract-calls": "ts-node scripts/find-no-contract-calls.ts",
+    "analyze-token-calls": "ts-node scripts/analyze-token-calls.ts",
+    "find-block-handlers": "ts-node scripts/find-block-handlers.ts",
+    "find-call-handlers": "ts-node scripts/find-call-handlers.ts",
+    "find-dynamic-contracts": "ts-node scripts/find-dynamic-contracts.ts",
+    "find-ipfs-integrations": "ts-node scripts/find-ipfs-integrations.ts",
+    "find-arweave-integrations": "ts-node scripts/find-arweave-integrations.ts",
+    "find-network-deployments": "ts-node scripts/find-network-deployments.ts",
+    "generate-feature-matrix": "ts-node scripts/generate-feature-matrix.ts",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "minimist": "^1.2.8",
-    "mustache": "^4.2.0"
+    "mustache": "^4.2.0",
+    "glob": "^10.3.10",
+    "yaml": "^2.3.4"
   },
   "devDependencies": {
     "@graphprotocol/graph-ts": "^0.28.1",
@@ -22,24 +54,5 @@
   "lint-staged": {
     "subgraphs/**/*.ts": "npm run lint",
     "*.{ts,css,md}": "prettier --write"
-  },
-  "scripts": {
-    "prettier": "prettier --loglevel silent --write \"**/*.{md,jsx,tsx,ts,json,html,css,js}\"",
-    "prettier-write": "prettier --write",
-    "prettier-check": "prettier --check",
-    "lint:fix": "npx eslint --fix --max-warnings 0",
-    "lint": "npx eslint",
-    "lint:subgraphs": "npx eslint -c subgraphs/.eslintrc.js",
-    "prepare": "husky install",
-    "folderslint": "cd subgraphs && folderslint",
-    "validate-protocols": "ts-node scripts/validate-protocols.ts",
-    "find-contract-calls": "ts-node scripts/find-contract-calls.ts",
-    "find-no-contract-calls": "ts-node scripts/find-no-contract-calls.ts",
-    "analyze-token-calls": "ts-node scripts/analyze-token-calls.ts",
-    "find-block-handlers": "ts-node scripts/find-block-handlers.ts",
-    "find-call-handlers": "ts-node scripts/find-call-handlers.ts",
-    "find-dynamic-contracts": "ts-node scripts/find-dynamic-contracts.ts",
-    "build": "tsc",
-    "build:watch": "tsc -w"
   }
 }

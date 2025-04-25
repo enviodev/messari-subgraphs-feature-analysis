@@ -1,6 +1,6 @@
-# Subgraphs Feature Analysis
+# Messari Subgraphs Feature Analysis
 
-This repository contains the code analysed, the data used and information generated, and the scripts to analyse messari subgraphs and their features used. 
+This repository contains scripts for analyzing various features and patterns in Messari subgraphs.
 
 ## Protocol Validation Script
 
@@ -129,13 +129,19 @@ The repository includes a TypeScript script (`scripts/find-block-handlers.ts`) t
 npm run find-block-handlers > data/block-handlers.csv
 ```
 
-### Findings
+### Output Format
+The script outputs:
+1. A CSV file with the following columns:
+   - `project`: Name of the subgraph project
+   - `file`: Relative path to the YAML file containing the block handler
+   - `lineNumber`: Line number where the block handler was found
+   - `line`: The actual line of code containing the block handler definition
 
-Summary:
-Total blockHandlers found: 6
-Projects with blockHandlers: 2 / 171
+2. A summary showing:
+   - Total number of block handlers found
+   - Number of projects using block handlers
 
-It seems only network indexers that simply index each block are here, this aligns with our thesis that there is never a good case to use blockhandlers in indexers due to it's considerable performance bottleneck
+3. A sorted list of all projects that use block handlers
 
 ## Call Handlers Analysis Script
 
@@ -194,3 +200,146 @@ The script outputs:
    - Number of projects using dynamic contracts
 
 3. A sorted list of all projects that use dynamic contracts
+
+## IPFS Integrations Analysis Script
+
+The repository includes a TypeScript script (`scripts/find-ipfs-integrations.ts`) that identifies subgraphs that use IPFS integrations, specifically looking for "ipfsOnEthereumContracts" in YAML configuration files.
+
+### Purpose
+- Identifies subgraphs that integrate with IPFS
+- Helps understand which subgraphs store data on IPFS
+- Provides insights into decentralized storage usage across the subgraph ecosystem
+
+### Usage
+```bash
+# Run the IPFS integrations analysis
+npm run find-ipfs-integrations > data/ipfs-integrations.csv
+```
+
+### Output Format
+The script outputs:
+1. A CSV file with the following columns:
+   - `project`: Name of the subgraph project
+   - `file`: Relative path to the YAML file containing the IPFS integration
+   - `lineNumber`: Line number where the IPFS integration was found
+   - `line`: The actual line of code containing the IPFS integration definition
+
+2. A summary showing:
+   - Total number of IPFS integrations found
+   - Number of projects using IPFS integrations
+
+3. A sorted list of all projects that use IPFS integrations
+
+## Arweave Integrations Analysis Script
+
+The repository includes a TypeScript script (`scripts/find-arweave-integrations.ts`) that identifies subgraphs that use Arweave integrations, specifically looking for "ArweaveContent" in YAML configuration files.
+
+### Purpose
+- Identifies subgraphs that integrate with Arweave
+- Helps understand which subgraphs store data on Arweave
+- Provides insights into decentralized storage usage across the subgraph ecosystem
+
+### Usage
+```bash
+# Run the Arweave integrations analysis
+npm run find-arweave-integrations > data/arweave-integrations.csv
+```
+
+### Output Format
+The script outputs:
+1. A CSV file with the following columns:
+   - `project`: Name of the subgraph project
+   - `file`: Relative path to the YAML file containing the Arweave integration
+   - `lineNumber`: Line number where the Arweave integration was found
+   - `line`: The actual line of code containing the Arweave integration definition
+
+2. A summary showing:
+   - Total number of Arweave integrations found
+   - Number of projects using Arweave integrations
+
+3. A sorted list of all projects that use Arweave integrations
+
+## Network Deployments Analysis Script
+
+The repository includes a TypeScript script (`scripts/find-network-deployments.ts`) that identifies the networks each subgraph is deployed to by looking for deployment folders.
+
+### Purpose
+- Identifies all networks that each subgraph is deployed to
+- Helps understand the multi-chain presence of each subgraph
+- Provides insights into cross-chain deployment patterns
+
+### Usage
+```bash
+# Run the network deployments analysis
+npm run find-network-deployments > data/network-deployments.csv
+```
+
+### Output Format
+The script outputs:
+1. A CSV file with the following columns:
+   - `project`: Name of the subgraph project
+   - `network`: Name of the network (e.g., mainnet, polygon, etc.)
+   - `deploymentPath`: Relative path to the deployment folder
+
+2. A summary showing:
+   - Total number of network deployments found
+   - Number of projects with network deployments
+
+3. A detailed breakdown of networks for each project
+
+## Feature Matrix Generation Script
+
+The repository includes a TypeScript script (`scripts/generate-feature-matrix.ts`) that combines data from all the analysis scripts to create a comprehensive feature matrix.
+
+### Purpose
+- Creates a unified view of all subgraph features
+- Provides a single CSV file with all feature data for each protocol
+- Enables easy comparison and analysis of feature usage across protocols
+
+### Usage
+```bash
+# First, run all the individual analysis scripts
+npm run find-contract-calls > data/contract-calls.out
+npm run find-no-contract-calls > data/no-contract-calls.out
+npm run find-block-handlers > data/find-block-handlers.out
+npm run find-call-handlers > data/call-handlers.csv
+npm run find-dynamic-contracts > data/dynamic-contracts.csv
+npm run find-ipfs-integrations > data/ipfs-integrations.csv
+npm run find-network-deployments > data/network-deployments.csv
+
+# Then generate the feature matrix
+npm run generate-feature-matrix > data/feature-matrix.out
+```
+
+### Output Format
+The script outputs:
+1. A CSV file with the following columns:
+   - `protocol`: Name of the subgraph project
+   - `networks`: Number of networks the subgraph is deployed to
+   - `callHandlers`: Boolean indicating if the subgraph uses call handlers
+   - `ipfs`: Boolean indicating if the subgraph uses IPFS
+   - `blockHandlers`: Boolean indicating if the subgraph uses block handlers
+   - `dynamicContracts`: Boolean indicating if the subgraph uses dynamic contracts
+   - `contractCalls`: Boolean indicating if the subgraph uses contract calls
+
+2. A summary showing:
+   - Total number of protocols analyzed
+   - Percentage of protocols with each feature
+   - Distribution of protocols by number of networks
+
+## Requirements
+
+- Node.js
+- TypeScript
+- ts-node
+
+## Installation
+
+```bash
+npm install
+```
+
+## Contributing
+
+Feel free to contribute new analysis scripts or improve existing ones.
+
